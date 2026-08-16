@@ -1,0 +1,211 @@
+- main [ref=e2]:
+  - generic [ref=e3]:
+    - link "OpenSiri 首页" [ref=e4] [cursor=pointer]:
+      - /url: "#top"
+      - generic [ref=e5]: OPENSIRI
+    - navigation "主导航" [ref=e6]:
+      - link "怎么工作" [ref=e7] [cursor=pointer]:
+        - /url: "#workflow"
+      - link "Agent 团队" [ref=e8] [cursor=pointer]:
+        - /url: "#agents"
+      - link "3 Skills" [ref=e9] [cursor=pointer]:
+        - /url: "#skills"
+      - link "隐私" [ref=e10] [cursor=pointer]:
+        - /url: "#privacy"
+    - link "查看方案" [ref=e11] [cursor=pointer]:
+      - /url: "#open-source"
+      - text: 查看方案
+      - generic [ref=e12]: ↗
+  - generic [ref=e13]:
+    - generic [ref=e14]:
+      - paragraph [ref=e15]: 你的 AI 助理
+      - heading "openSiri for mac 一样强大，更本地化。" [level=1] [ref=e16]:
+        - text: openSiri for mac
+        - text: 一样强大，更本地化。
+      - paragraph [ref=e17]: OpenSiri 识别微信对话截图，结合你的偏好， 让四个 Agent 分析、生成、验证，再给出真正能发出去的回复建议。
+      - generic [ref=e18]:
+        - link "看它怎么回" [ref=e19] [cursor=pointer]:
+          - /url: "#workflow"
+          - text: 看它怎么回
+          - generic [ref=e20]: →
+        - link "查看 Agent 架构" [ref=e21] [cursor=pointer]:
+          - /url: "#architecture"
+      - paragraph [ref=e22]: OCR 默认在本地完成 · 原始截图不上传
+    - generic "OpenSiri 回复窗口示意" [ref=e24]:
+      - generic [ref=e27]: A1
+      - generic [ref=e28]: A2
+      - generic [ref=e29]: A3
+      - generic [ref=e30]: A4
+      - generic [ref=e31]:
+        - generic [ref=e32]:
+          - generic [ref=e34]: OPEN_SIRI / REPLY_TASK_047
+          - generic [ref=e35]: •••
+        - generic [ref=e36]:
+          - generic [ref=e37]: 周六一起吃饭？老地方？
+          - generic [ref=e38]: 我可能要先确认一下安排
+          - generic [ref=e39]: 好呀，明天告诉我就行
+        - generic [ref=e40]: 4 AGENTS VERIFIED
+        - generic [ref=e42]:
+          - text: 友好 · 推荐
+          - paragraph [ref=e43]: 可以呀～我今晚先确认一下安排，明早第一时间回复你。
+        - generic [ref=e44]:
+          - generic [ref=e45]: 复制
+          - strong [ref=e46]: 插入输入框 →
+  - generic "产品能力摘要" [ref=e47]:
+    - generic [ref=e48]: SCREENSHOT → CONTEXT → TEAMWORK → VERIFIED REPLY
+    - strong [ref=e49]: 不是猜你想说什么，是先让四个 Agent 商量明白。
+  - generic [ref=e50]:
+    - generic [ref=e51]:
+      - paragraph [ref=e52]: 01 / PRIMARY FLOW
+      - heading "你负责截图。他们负责读空气。" [level=2] [ref=e53]
+      - paragraph [ref=e54]: 截图、OCR、上下文和 AgentTeams 协作被收进一个窗口。 你始终能看见它读到了什么、谁在处理、为什么推荐这句话。
+    - generic [ref=e55]:
+      - article [ref=e56]:
+        - generic [ref=e57]:
+          - generic [ref=e58]: INPUT / 微信对话截图
+          - generic [ref=e59]: 本地 OCR 96%
+        - generic [ref=e60]:
+          - generic [ref=e61]: 昨天 22:18
+          - generic [ref=e62]:
+            - generic [ref=e63]: L
+            - paragraph [ref=e64]: 周六一起吃饭？老地方？
+          - generic [ref=e65]:
+            - paragraph [ref=e66]: 我可能要先确认一下安排
+            - generic [ref=e67]: ME
+          - generic [ref=e68]:
+            - generic [ref=e69]: L
+            - paragraph [ref=e70]: 好呀，明天告诉我就行
+        - generic [ref=e71]:
+          - generic [ref=e72]: 关系：朋友
+          - generic [ref=e73]: 语气：自然
+          - generic [ref=e74]: 避免：过度承诺
+      - article [ref=e75]:
+        - generic [ref=e76]:
+          - generic [ref=e77]: OUTPUT / 回复建议
+          - generic [ref=e78]: REVIEWED
+        - generic "选择回复语气" [ref=e79]:
+          - button "简洁" [ref=e80] [cursor=pointer]
+          - button "友好" [pressed] [ref=e81] [cursor=pointer]
+          - button "稳妥" [ref=e82] [cursor=pointer]
+        - blockquote [ref=e83]: 可以呀～我今晚先确认一下安排，明早第一时间回复你。
+        - generic [ref=e84]:
+          - paragraph [ref=e85]:
+            - generic [ref=e86]: 语气
+            - strong [ref=e87]: 匹配朋友关系
+          - paragraph [ref=e88]:
+            - generic [ref=e89]: 事实
+            - strong [ref=e90]: 没有凭空补充
+          - paragraph [ref=e91]:
+            - generic [ref=e92]: 承诺
+            - strong [ref=e93]: 给出明确边界
+          - paragraph [ref=e94]:
+            - generic [ref=e95]: 隐私
+            - strong [ref=e96]: 无敏感信息
+        - button "复制这条回复" [ref=e97] [cursor=pointer]:
+          - text: 复制这条回复
+          - generic [ref=e98]: ↗
+        - generic [ref=e99]: 我不会替你发送，所以也不会替你社死。
+  - generic [ref=e100]:
+    - generic [ref=e101]:
+      - paragraph [ref=e102]: 02 / AGENTTEAMS INFRA
+      - heading "一句话背后，是一支有分工的团队。" [level=2] [ref=e103]
+      - paragraph [ref=e104]: 不是把同一个提示词跑四遍。每个 Agent 都有独立输入、输出、工具和边界， Team Leader 负责交接，Reviewer 有权打回重写。
+    - generic [ref=e105]:
+      - article [ref=e106]:
+        - generic [ref=e108]: "01"
+        - heading "对话分析" [level=3] [ref=e110]
+        - paragraph [ref=e111]: Conversation Analyst
+        - paragraph [ref=e112]: 谁在说、想表达什么、哪句还没回。
+        - generic [ref=e113]: 已识别 8 条消息
+      - article [ref=e115]:
+        - generic [ref=e117]: "02"
+        - heading "用户上下文" [level=3] [ref=e119]
+        - paragraph [ref=e120]: User Context Agent
+        - paragraph [ref=e121]: 只取这次需要的关系、语气与偏好。
+        - generic [ref=e122]: 偏好已最小化
+      - article [ref=e124]:
+        - generic [ref=e126]: "03"
+        - heading "回复策略" [level=3] [ref=e128]
+        - paragraph [ref=e129]: Reply Strategist
+        - paragraph [ref=e130]: 不是写一条万能答案，而是给三种选择。
+        - generic [ref=e131]: 3 个候选已生成
+      - article [ref=e133]:
+        - generic [ref=e135]: "04"
+        - heading "独立验证" [level=3] [ref=e137]
+        - paragraph [ref=e138]: Quality Reviewer
+        - paragraph [ref=e139]: 查事实、语气、隐私和过度承诺。
+        - generic [ref=e140]: 全部通过
+    - generic "Agent 状态传递示意" [ref=e142]:
+      - generic [ref=e143]: CAPTURE_ACCEPTED
+      - generic [ref=e145]: CONTEXT_RESOLVED
+      - generic [ref=e147]: 3_CANDIDATES
+      - generic [ref=e149]: VERIFICATION_PASSED
+  - generic [ref=e150]:
+    - generic [ref=e151]:
+      - generic [ref=e152]:
+        - paragraph [ref=e153]: 03 / BUILT-IN SKILLS
+        - heading "三种入口，同一支团队。" [level=2] [ref=e154]
+      - paragraph [ref=e155]: 从微信回复起步，但不止于微信。 截图和划词会成为 macOS 上最自然的 AI 调用方式。
+    - generic [ref=e156]:
+      - article [ref=e157]:
+        - generic [ref=e158]:
+          - generic [ref=e159]: SKILL / 01
+          - generic [ref=e160]: 完整闭环
+        - heading "微信截图智能回复" [level=3] [ref=e161]
+        - paragraph [ref=e162]: “这句话，到底该怎么回？”
+        - paragraph [ref=e163]: 识别聊天气泡、区分双方、理解话外音，再给你简洁、友好、稳妥三条建议。
+        - generic [ref=e164]: ↗
+      - article [ref=e165]:
+        - generic [ref=e166]:
+          - generic [ref=e167]: SKILL / 02
+          - generic [ref=e168]: 内置
+        - heading "划词改写" [level=3] [ref=e169]
+        - paragraph [ref=e170]: “换个说法，但还是像我。”
+        - paragraph [ref=e171]: 选中任何文字，扩写、缩写、润色或换语气。内容变更，个人表达不丢。
+        - generic [ref=e172]: ↗
+      - article [ref=e173]:
+        - generic [ref=e174]:
+          - generic [ref=e175]: SKILL / 03
+          - generic [ref=e176]: 内置
+        - heading "截图行动建议" [level=3] [ref=e177]
+        - paragraph [ref=e178]: “我看懂了，然后呢？”
+        - paragraph [ref=e179]: 从通知、表格或页面截图里提炼重点、识别风险，并把下一步排成可执行清单。
+        - generic [ref=e180]: ↗
+  - generic [ref=e181]:
+    - generic [ref=e185]: LOCAL FIRST
+    - generic [ref=e186]:
+      - paragraph [ref=e187]: 04 / PRIVACY BY DEFAULT
+      - heading "我需要上下文， 不需要你的人生。" [level=2] [ref=e188]:
+        - text: 我需要上下文，
+        - text: 不需要你的人生。
+      - paragraph [ref=e189]: OCR 默认在本地完成。只有校对后的必要文本、任务目标和你本次授权的偏好 会进入 AgentTeams。Token 放在 Keychain，原始截图不默认上传。
+      - list [ref=e190]:
+        - listitem [ref=e191]:
+          - generic [ref=e192]: "01"
+          - text: 你能在提交前校对每一条识别结果
+        - listitem [ref=e193]:
+          - generic [ref=e194]: "02"
+          - text: 不同 Agent 只看到完成任务所需的最小上下文
+        - listitem [ref=e195]:
+          - generic [ref=e196]: "03"
+          - text: 最终发送权永远在你手上
+  - generic [ref=e197]:
+    - paragraph [ref=e198]: OPEN SOURCE · MACOS · AGENTTEAMS
+    - heading "“抱歉，我做不到”这句话，这次换我们来说。" [level=2] [ref=e199]
+    - paragraph [ref=e200]: OpenSiri 复用 Easydict 成熟的截图、OCR、划词、快捷键与窗口能力， 用 AgentTeams 把一次回复变成可观察、可验证、可回滚的多 Agent 协作任务。
+    - generic [ref=e201]:
+      - link "体验主流程 →" [ref=e202] [cursor=pointer]:
+        - /url: "#workflow"
+      - link "查看四个 Agent 的分工 ↗" [ref=e203] [cursor=pointer]:
+        - /url: "#agents"
+    - generic [ref=e204]:
+      - generic [ref=e205]: OPEN_BUILD / 2026
+      - generic [ref=e206]: HUMAN APPROVAL REQUIRED
+      - generic [ref=e207]: NO AUTO-SEND
+  - generic [ref=e208]:
+    - link "返回顶部" [ref=e209] [cursor=pointer]:
+      - /url: "#top"
+      - generic [ref=e210]: OPENSIRI
+    - paragraph [ref=e211]: 截一张图，让一支 Agent 团队帮你想好怎么回。
+    - link "BACK TO TOP ↑" [ref=e212] [cursor=pointer]:
+      - /url: "#top"

@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <defs>
+    <linearGradient id="opensiri-spectrum" x1="6" y1="18" x2="56" y2="51" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#32D7FF"/>
+      <stop offset="0.16" stop-color="#2F7BFF"/>
+      <stop offset="0.32" stop-color="#6E5BFF"/>
+      <stop offset="0.49" stop-color="#A855F7"/>
+      <stop offset="0.66" stop-color="#F044C5"/>
+      <stop offset="0.82" stop-color="#FF5C8A"/>
+      <stop offset="1" stop-color="#FF9A3D"/>
+    </linearGradient>
+  </defs>
+  <path fill="url(#opensiri-spectrum)" d="M32 4C32.8 4 33.5 4.8 33.9 5.9L38.9 19.6C39.4 20.9 40.5 21.6 41.9 21.5L56.8 20.5C58.4 20.4 59.1 22.4 57.8 23.4L45.8 32.5C44.7 33.3 44.4 34.7 45 35.9L50.4 50.7C51 52.3 49.1 53.5 47.8 52.5L34.9 42.7C33.8 41.9 32.2 41.9 31.1 42.7L16.2 52.5C14.9 53.5 13 52.3 13.6 50.7L19 35.9C19.6 34.7 19.3 33.3 18.2 32.5L6.2 23.4C4.9 22.4 5.6 20.4 7.2 20.5L22.1 21.5C23.5 21.6 24.6 20.9 25.1 19.6L30.1 5.9C30.5 4.8 31.2 4 32 4Z"/>
+</svg>
