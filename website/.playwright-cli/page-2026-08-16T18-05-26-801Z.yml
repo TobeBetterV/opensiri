@@ -1,6 +1,6 @@
 - main [ref=e2]:
   - generic [ref=e3]:
-    - link "OpenSiri 首页" [ref=e4] [cursor=pointer]:
+    - link "openSiri 首页" [ref=e4] [cursor=pointer]:
       - /url: "#top"
       - generic [ref=e5]: OPENSIRI
     - navigation "主导航" [ref=e6]:
@@ -22,7 +22,7 @@
       - heading "openSiri for mac 一样强大，更本地化。" [level=1] [ref=e16]:
         - text: openSiri for mac
         - text: 一样强大，更本地化。
-      - paragraph [ref=e17]: OpenSiri 识别微信对话截图，结合你的偏好， 让四个 Agent 分析、生成、验证，再给出真正能发出去的回复建议。
+      - paragraph [ref=e17]: openSiri 识别微信对话截图，结合你的偏好， 让四个 Agent 分析、生成、验证，再给出真正能发出去的回复建议。
       - generic [ref=e18]:
         - link "看它怎么回" [ref=e19] [cursor=pointer]:
           - /url: "#workflow"
@@ -31,7 +31,7 @@
         - link "查看 Agent 架构" [ref=e21] [cursor=pointer]:
           - /url: "#architecture"
       - paragraph [ref=e22]: OCR 默认在本地完成 · 原始截图不上传
-    - generic "OpenSiri 回复窗口示意" [ref=e24]:
+    - generic "openSiri 回复窗口示意" [ref=e24]:
       - generic [ref=e27]: A1
       - generic [ref=e28]: A2
       - generic [ref=e29]: A3
@@ -192,7 +192,7 @@
   - generic [ref=e197]:
     - paragraph [ref=e198]: OPEN SOURCE · MACOS · AGENTTEAMS
     - heading "“抱歉，我做不到”这句话，这次换我们来说。" [level=2] [ref=e199]
-    - paragraph [ref=e200]: OpenSiri 复用 Easydict 成熟的截图、OCR、划词、快捷键与窗口能力， 用 AgentTeams 把一次回复变成可观察、可验证、可回滚的多 Agent 协作任务。
+    - paragraph [ref=e200]: openSiri 复用 Easydict 成熟的截图、OCR、划词、快捷键与窗口能力， 用 AgentTeams 把一次回复变成可观察、可验证、可回滚的多 Agent 协作任务。
     - generic [ref=e201]:
       - link "体验主流程 →" [ref=e202] [cursor=pointer]:
         - /url: "#workflow"

@@ -20,7 +20,7 @@ export async function generateMetadata(): Promise<Metadata> {
   const origin = `${protocol}://${host}`;
 
   return {
-    title: "OpenSiri — 截一张图，让 Agent 团队帮你想好怎么回",
+    title: "openSiri — 截一张图，让 Agent 团队帮你想好怎么回",
     description: "面向 macOS 的开源 AI 入口：识别微信对话截图，通过 AgentTeams 协作生成并验证回复建议。",
     icons: {
       icon: "/opensiri-app-icon.png",
@@ -28,15 +28,15 @@ export async function generateMetadata(): Promise<Metadata> {
       apple: "/opensiri-app-icon.png",
     },
     openGraph: {
-      title: "OpenSiri — 截一张图，让 Agent 团队帮你想好怎么回",
+      title: "openSiri — 截一张图，让 Agent 团队帮你想好怎么回",
       description: "本地 OCR、四个 Agent 协作、三条经验证回复建议。",
       type: "website",
       url: origin,
-      images: [{ url: `${origin}/og.png`, width: 1200, height: 630, alt: "OpenSiri" }],
+      images: [{ url: `${origin}/og.png`, width: 1200, height: 630, alt: "openSiri" }],
     },
     twitter: {
       card: "summary_large_image",
-      title: "OpenSiri",
+      title: "openSiri",
       description: "截一张图，让一支 Agent 团队帮你想好怎么回。",
       images: [`${origin}/og.png`],
     },

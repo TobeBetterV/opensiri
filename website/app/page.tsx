@@ -70,7 +70,7 @@ export default function Home() {
   return (
     <main>
       <header className="site-header shell">
-        <a className="brand" href="#top" aria-label="OpenSiri 首页">
+        <a className="brand" href="#top" aria-label="openSiri 首页">
           <Image
             className="brand-logo"
             src="/opensiri-logo-color.png"
@@ -116,7 +116,7 @@ export default function Home() {
           </p>
         </div>
 
-        <div className="hero-visual" aria-label="OpenSiri 回复窗口示意">
+        <div className="hero-visual" aria-label="openSiri 回复窗口示意">
           <div className="orbit orbit-a" />
           <div className="orbit orbit-b" />
           <div className="agent-node node-a">A1</div>
@@ -319,7 +319,7 @@ export default function Home() {
           <span>好搭档</span>
         </h2>
         <p>
-          OpenSiri 复用成熟的截图、OCR、划词、快捷键与窗口能力，
+          openSiri 复用成熟的截图、OCR、划词、快捷键与窗口能力，
           用 AgentTeams 把一次回复变成可观察、可验证、可回滚的多 Agent 协作任务。
         </p>
         <div className="opensource-actions">

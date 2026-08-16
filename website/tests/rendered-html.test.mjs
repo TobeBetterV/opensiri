@@ -32,7 +32,7 @@ async function render() {
   );
 }
 
-test("server-renders the OpenSiri product site", async () => {
+test("server-renders the openSiri product site", async () => {
   const response = await render();
   assert.equal(response.status, 200);
   assert.match(response.headers.get("content-type") ?? "", /^text\/html\b/i);
@@ -40,7 +40,7 @@ test("server-renders the OpenSiri product site", async () => {
   const html = await response.text();
   const decodedHtml = html.replaceAll("%2F", "/");
   assert.match(html, /<html lang="zh-CN">/i);
-  assert.match(html, /<title>OpenSiri — 截一张图，让 Agent 团队帮你想好怎么回<\/title>/i);
+  assert.match(html, /<title>openSiri — 截一张图，让 Agent 团队帮你想好怎么回<\/title>/i);
   assert.match(html, /不用说“嘿，Siri”/);
   assert.match(html, /微信截图智能回复/);
   assert.match(html, /Conversation Analyst/);
