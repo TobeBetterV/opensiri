@@ -18,4 +18,6 @@ npm install
 npm run dev
 ```
 
-更多细节见 [`website/README.md`](website/README.md)。
+查看 [`查看 Agent 架构`](https://cdn.wordflow.click/opensiri-agent-infra-branded-1.pdf)。
+
+查看 [`功能演示`](https://cdn.wordflow.click/opensiri-agent-infra-branded-1.pdf)。
