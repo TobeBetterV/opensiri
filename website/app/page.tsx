@@ -3,6 +3,10 @@
 import Image from "next/image";
 import { useState } from "react";
 
+// Agent 架构说明 PDF，点击后在浏览器新标签页打开。
+const AGENT_INFRA_PDF =
+  "https://cdn.opensiri.ai/opensiri-agent-infra-branded-1.pdf";
+
 const replies = {
   简洁: "收到，我今晚确认一下时间，明早给你答复。",
   友好: "可以呀～我今晚先确认一下安排，明早第一时间回复你。",
@@ -103,10 +107,20 @@ export default function Home() {
             openSiri 是 macOS 上的 AI 助理，属于 HumanPilot 的组成部分，跟 Siri 不太一样，这个用了就离不开。
           </p>
           <div className="hero-actions">
-            <a className="button button-dark" href="#workflow">
+            <a
+              className="button button-dark"
+              href={AGENT_INFRA_PDF}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               功能演示 <span aria-hidden="true">→</span>
             </a>
-            <a className="button button-light" href="#architecture">
+            <a
+              className="button button-light"
+              href={AGENT_INFRA_PDF}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               查看 Agent 架构
             </a>
           </div>
