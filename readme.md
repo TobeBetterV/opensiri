@@ -18,6 +18,6 @@ npm install
 npm run dev
 ```
 
-查看 [`Agent 架构`](https://cdn.wordflow.click/opensiri-agent-infra-branded-1.pdf)。
+查看 [`Agent 架构`](https://cdn.opensiri.ai/opensiri-agent-infra-branded-1.pdf)。
 
-查看 [`功能演示`](https://cdn.wordflow.click/opensiri-agent-infra-branded-1.pdf)。
+查看 [`功能演示`](https://cdn.opensiri.ai/opensiri-agent-infra-branded-1.pdf)。
