@@ -11,7 +11,9 @@ AgentTeams 多个 Agent 协作，生成并验证若干条回复建议。
 
 ![menubar](https://cdn.opensiri.ai/opensiri-menubar.png)
 
-#### 
+#### 读图
+
+![img-ocr](https://cdn.opensiri.ai/opensiri-show-1.png)
 
 ## 邀请测试阶段
 
