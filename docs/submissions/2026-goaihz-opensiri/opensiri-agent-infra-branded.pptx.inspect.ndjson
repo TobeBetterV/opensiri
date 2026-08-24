@@ -1,0 +1,346 @@
+{"kind":"deck","id":"pr/6oaxuc","name":"Deck"}
+{"kind":"layout","layoutId":"/ppt/slideMasters/slideMaster1.xml","name":"Master","type":"master"}
+{"kind":"layout","layoutId":"/ppt/slideLayouts/slideLayout1.xml","name":"Title Slide","type":"title"}
+{"kind":"slide","id":"sl/y90nupkv","slide":1,"title":"GOAI WORLD AI OPEN-SOURCE COMPETITION · AGENT INFRA","textShapes":6}
+{"kind":"shape","id":"sh/547294r6","slide":1,"bbox":[0,0,1280,8]}
+{"kind":"textbox","id":"sh/k3yl0zql","slide":1,"text":"GOAI WORLD AI OPEN-SOURCE COMPETITION · AGENT INFRA","textPreview":"GOAI WORLD AI OPEN-SOURCE COMPETITION · AGENT INFRA","textChars":51,"textLines":1,"bbox":[54,680,720,18]}
+{"kind":"textbox","id":"sh/7qp4be9c","slide":1,"text":"2026.08","textPreview":"2026.08","textChars":7,"textLines":1,"bbox":[1060,680,164,18]}
+{"kind":"textbox","id":"sh/sryl4zqx","slide":1,"name":"OpenSiri editable wordmark","text":"OpenSiri","textPreview":"OpenSiri","textChars":8,"textLines":1,"bbox":[220,185,310,73]}
+{"kind":"textbox","id":"sh/fu94fe98","slide":1,"name":"OpenSiri editable cover headline 1","text":"截一张图，","textPreview":"截一张图，","textChars":5,"textLines":1,"bbox":[91,297,340,73]}
+{"kind":"textbox","id":"sh/utg3698n","slide":1,"name":"OpenSiri editable cover headline 2","text":"让一支 Agent 团队","textPreview":"让一支 Agent 团队","textChars":12,"textLines":1,"bbox":[91,371,500,73]}
+{"kind":"textbox","id":"sh/wn6dc7eh","slide":1,"name":"OpenSiri editable cover headline 3","text":"帮你想好怎么回。","textPreview":"帮你想好怎么回。","textChars":8,"textLines":1,"bbox":[91,446,470,73]}
+{"kind":"image","id":"im/ri9kvmxs","slide":1,"name":"","alt":"OpenSiri technical grid and Agent collaboration workflow","bbox":[0.16,24,1279.68,672]}
+{"kind":"image","id":"im/cj21o7ed","slide":1,"name":"","alt":"OpenSiri logo","bbox":[103,177,101,101]}
+{"kind":"notes","id":"nt/y90nupkv","slide":1,"text":"用一句话建立产品记忆：截一张图，不是调用一个聊天机器人，而是调度一支 Agent 团队。标题视觉为本项目原创生成。\n\n[Sources]\n- Visual direction requested by user; reference: https://openmind.com/\n- Logo asset supplied by the project owner (transparent color-line PNG).\n\nCover revision: the project-owner supplied OpenSiri logo is a separate image; OpenSiri and the three Chinese headline lines are native editable PowerPoint text."}
+{"kind":"slide","id":"sl/hwbqtkby","slide":2,"title":"OPENSIRI / AGENT INFRA","textShapes":16}
+{"kind":"shape","id":"sh/wbidwb29","slide":2,"bbox":[80,0,1,720]}
+{"kind":"shape","id":"sh/9072xkry","slide":2,"bbox":[240,0,1,720]}
+{"kind":"shape","id":"sh/ozy1ofad","slide":2,"bbox":[400,0,1,720]}
+{"kind":"shape","id":"sh/b29kza94","slide":2,"bbox":[560,0,1,720]}
+{"kind":"shape","id":"sh/a10jqpsj","slide":2,"bbox":[720,0,1,720]}
+{"kind":"shape","id":"sh/x4r21kru","slide":2,"bbox":[880,0,1,720]}
+{"kind":"shape","id":"sh/w3i1sfa9","slide":2,"bbox":[1040,0,1,720]}
+{"kind":"shape","id":"sh/r65knqtk","slide":2,"bbox":[1200,0,1,720]}
+{"kind":"shape","id":"sh/q5wjelsz","slide":2,"bbox":[0,90,1280,1]}
+{"kind":"shape","id":"sh/ove9o7yd","slide":2,"bbox":[0,180,1280,1]}
+{"kind":"shape","id":"sh/9wnqhczy","slide":2,"bbox":[0,270,1280,1]}
+{"kind":"shape","id":"sh/mtwrmxg7","slide":2,"bbox":[0,360,1280,1]}
+{"kind":"shape","id":"sh/nu58f2hs","slide":2,"bbox":[0,450,1280,1]}
+{"kind":"shape","id":"sh/wjy9sry9","slide":2,"bbox":[0,540,1280,1]}
+{"kind":"shape","id":"sh/xk7qlczu","slide":2,"bbox":[0,630,1280,1]}
+{"kind":"textbox","id":"sh/ahwrqhgj","slide":2,"text":"OPENSIRI / AGENT INFRA","textPreview":"OPENSIRI / AGENT INFRA","textChars":22,"textLines":1,"bbox":[56,28,300,18]}
+{"kind":"textbox","id":"sh/bip8jmho","slide":2,"text":"02  USER TENSION","textPreview":"02  USER TENSION","textChars":16,"textLines":1,"bbox":[884,28,340,18]}
+{"kind":"shape","id":"sh/cnupgny5","slide":2,"bbox":[56,56,1168,1]}
+{"kind":"textbox","id":"sh/do3q9szq","slide":2,"text":"用户不是缺一句“高情商回复”，","textPreview":"用户不是缺一句“高情商回复”，","textChars":15,"textLines":1,"bbox":[56,88,1168,58]}
+{"kind":"textbox","id":"sh/t8byxkn2","slide":2,"text":"而是缺少理解上下文的协作过程。","textPreview":"而是缺少理解上下文的协作过程。","textChars":15,"textLines":1,"bbox":[56,140,1168,58]}
+{"kind":"shape","id":"sh/s72xofmh","slide":2,"bbox":[56,238,548,392]}
+{"kind":"textbox","id":"sh/76twva5c","slide":2,"text":"“","textPreview":"“","textChars":1,"textLines":1,"bbox":[78,246,80,80]}
+{"kind":"textbox","id":"sh/65kfmpor","slide":2,"text":"他这句话是什么意思？\n我要不要现在答应？\n怎么回才像我？","textPreview":"他这句话是什么意思？ | 我要不要现在答应？ | 怎么回才像我？","textChars":28,"textLines":3,"bbox":[110,324,420,176]}
+{"kind":"textbox","id":"sh/hcvy14ne","slide":2,"text":"一张微信截图里同时存在关系、语气、承诺、时机与隐私。","textPreview":"一张微信截图里同时存在关系、语气、承诺、时机与隐私。","textChars":26,"textLines":1,"bbox":[110,530,420,66]}
+{"kind":"textbox","id":"sh/gbmxszmt","slide":2,"text":"01","textPreview":"01","textChars":2,"textLines":1,"bbox":[670,254,56,30]}
+{"kind":"textbox","id":"sh/fadgzu58","slide":2,"text":"截图是非结构化输入","textPreview":"截图是非结构化输入","textChars":9,"textLines":1,"bbox":[736,250,430,36]}
+{"kind":"textbox","id":"sh/u94fqp4n","slide":2,"text":"OCR 文字、气泡顺序和说话人必须先变成可校对的对话。","textPreview":"OCR 文字、气泡顺序和说话人必须先变成可校对的对话。","textChars":27,"textLines":1,"bbox":[736,292,430,58]}
+{"kind":"shape","id":"sh/p0vy54na","slide":2,"bbox":[670,356,498,1]}
+{"kind":"textbox","id":"sh/4zmxwzmp","slide":2,"text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[670,374,56,30]}
+{"kind":"textbox","id":"sh/mlgvq147","slide":2,"text":"回复依赖“我是谁”","textPreview":"回复依赖“我是谁”","textChars":9,"textLines":1,"bbox":[736,370,430,36]}
+{"kind":"textbox","id":"sh/nmpcj6ls","slide":2,"text":"同一句话，对朋友、客户和家人不应该只有一个万能答案。","textPreview":"同一句话，对朋友、客户和家人不应该只有一个万能答案。","textChars":26,"textLines":1,"bbox":[736,412,430,58]}
+{"kind":"shape","id":"sh/onydsbmd","slide":2,"bbox":[670,476,498,1]}
+{"kind":"textbox","id":"sh/9o7ulg3y","slide":2,"text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[670,494,56,30]}
+{"kind":"textbox","id":"sh/a9gvulkj","slide":2,"text":"生成不等于可以发送","textPreview":"生成不等于可以发送","textChars":9,"textLines":1,"bbox":[736,490,430,36]}
+{"kind":"textbox","id":"sh/ba9cn6l4","slide":2,"text":"事实、语气、隐私与过度承诺需要独立验证。","textPreview":"事实、语气、隐私与过度承诺需要独立验证。","textChars":20,"textLines":1,"bbox":[736,532,430,58]}
+{"kind":"notes","id":"nt/hwbqtkby","slide":2,"text":"先讲清楚：产品价值不是更花哨的文案，而是把截图、用户上下文、策略与验证组织成一个过程。\n\n[Sources]\n- No external sources; project design and generated visual only."}
+{"kind":"slide","id":"sl/ofy9wn61","slide":3,"title":"OPENSIRI / AGENT INFRA","textShapes":22}
+{"kind":"textbox","id":"sh/k3m1g7yp","slide":3,"text":"OPENSIRI / AGENT INFRA","textPreview":"OPENSIRI / AGENT INFRA","textChars":22,"textLines":1,"bbox":[56,28,300,18]}
+{"kind":"textbox","id":"sh/cza94vmx","slide":3,"text":"03  THE LOOP","textPreview":"03  THE LOOP","textChars":12,"textLines":1,"bbox":[884,28,340,18]}
+{"kind":"shape","id":"sh/d0jax03i","slide":3,"bbox":[56,56,1168,1]}
+{"kind":"textbox","id":"sh/298ryl4v","slide":3,"text":"OpenSiri 把一张截图，","textPreview":"OpenSiri 把一张截图，","textChars":15,"textLines":1,"bbox":[56,88,1168,58]}
+{"kind":"textbox","id":"sh/3ah8rqlg","slide":3,"text":"变成可验证的人机协作任务。","textPreview":"变成可验证的人机协作任务。","textChars":13,"textLines":1,"bbox":[56,140,1168,58]}
+{"kind":"textbox","id":"sh/obq90bml","slide":3,"text":"不用说“嘿，Siri”。截个图，先让团队商量明白。","textPreview":"不用说“嘿，Siri”。截个图，先让团队商量明白。","textChars":25,"textLines":1,"bbox":[56,190,950,30]}
+{"kind":"shape","id":"sh/pcjqtg36","slide":3,"bbox":[118,360,1044,2]}
+{"kind":"shape","id":"sh/m5cra54z","slide":3,"bbox":[144,344,34,34]}
+{"kind":"textbox","id":"sh/n6ls3alk","slide":3,"text":"01","textPreview":"01","textChars":2,"textLines":1,"bbox":[56,275,210,24]}
+{"kind":"textbox","id":"sh/n2l4fq98","slide":3,"text":"截图","textPreview":"截图","textChars":2,"textLines":1,"bbox":[56,397,210,40]}
+{"kind":"textbox","id":"sh/m1c3mlsn","slide":3,"text":"复用 OpenSiri\n全局快捷键","textPreview":"复用 OpenSiri | 全局快捷键","textChars":17,"textLines":2,"bbox":[56,455,210,64]}
+{"kind":"shape","id":"sh/943mhgre","slide":3,"bbox":[379,344,34,34]}
+{"kind":"textbox","id":"sh/83ulovat","slide":3,"text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[291,275,210,24]}
+{"kind":"textbox","id":"sh/v6l4jq94","slide":3,"text":"本地 OCR","textPreview":"本地 OCR","textChars":6,"textLines":1,"bbox":[291,397,210,40]}
+{"kind":"textbox","id":"sh/a5c3ql8z","slide":3,"text":"识别气泡\n允许人工校对","textPreview":"识别气泡 | 允许人工校对","textChars":11,"textLines":2,"bbox":[291,455,210,64]}
+{"kind":"shape","id":"sh/x8nml0ra","slide":3,"bbox":[614,344,34,34]}
+{"kind":"textbox","id":"sh/w7ulsvqp","slide":3,"text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[526,275,210,24]}
+{"kind":"textbox","id":"sh/ja54na9g","slide":3,"text":"团队协作","textPreview":"团队协作","textChars":4,"textLines":1,"bbox":[526,397,210,40]}
+{"kind":"textbox","id":"sh/i9w3u58v","slide":3,"text":"四个 Worker\n传递结构化上下文","textPreview":"四个 Worker | 传递结构化上下文","textChars":18,"textLines":2,"bbox":[526,455,210,64]}
+{"kind":"shape","id":"sh/e10f2twf","slide":3,"bbox":[849,344,34,34]}
+{"kind":"textbox","id":"sh/f29gbyx0","slide":3,"text":"04","textPreview":"04","textChars":2,"textLines":1,"bbox":[761,275,210,24]}
+{"kind":"textbox","id":"sh/03ix43e5","slide":3,"text":"独立验证","textPreview":"独立验证","textChars":4,"textLines":1,"bbox":[761,397,210,40]}
+{"kind":"textbox","id":"sh/14ryd8fq","slide":3,"text":"事实 · 语气\n隐私 · 承诺","textPreview":"事实 · 语气 | 隐私 · 承诺","textChars":15,"textLines":2,"bbox":[761,455,210,64]}
+{"kind":"shape","id":"sh/6d0fytg3","slide":3,"bbox":[1084,344,34,34]}
+{"kind":"textbox","id":"sh/re9g7yxo","slide":3,"text":"05","textPreview":"05","textChars":2,"textLines":1,"bbox":[996,275,210,24]}
+{"kind":"textbox","id":"sh/sfix03y9","slide":3,"text":"人工批准","textPreview":"人工批准","textChars":4,"textLines":1,"bbox":[996,397,210,40]}
+{"kind":"textbox","id":"sh/tgry9ofu","slide":3,"text":"复制 / 插入\n永不自动发送","textPreview":"复制 / 插入 | 永不自动发送","textChars":14,"textLines":2,"bbox":[996,455,210,64]}
+{"kind":"shape","id":"sh/a9kfadwn","slide":3,"bbox":[56,580,1168,72]}
+{"kind":"textbox","id":"sh/batgjixs","slide":3,"text":"RECOVERABLE BY DESIGN","textPreview":"RECOVERABLE BY DESIGN","textChars":21,"textLines":1,"bbox":[78,598,250,20]}
+{"kind":"textbox","id":"sh/l4fi9cza","slide":3,"text":"OCR 不确定就校对 · 后端断开可重试 · Reviewer 拒绝最多回写两次 · 用户始终拥有最终发送权","textPreview":"OCR 不确定就校对 · 后端断开可重试 · Reviewer 拒绝最多回写两次 · 用户始终拥有最终发送权","textChars":54,"textLines":1,"bbox":[342,594,840,34]}
+{"kind":"notes","id":"nt/ofy9wn61","slide":3,"text":"按演示顺序讲完整闭环。重点是每个阶段都可观察、可纠正，不把错误藏在一个 loading 状态里。\n\n[Sources]\n- Internal design: docs/superpowers/specs/2026-08-16-opensiri-agentteams-design.md"}
+{"kind":"slide","id":"sl/jyx0ra1s","slide":4,"title":"OPENSIRI / AGENT INFRA","textShapes":21}
+{"kind":"shape","id":"sh/3elcv65w","slide":4,"bbox":[80,0,1,720]}
+{"kind":"shape","id":"sh/1cj2d8b6","slide":4,"bbox":[240,0,1,720]}
+{"kind":"shape","id":"sh/0ba143al","slide":4,"bbox":[400,0,1,720]}
+{"kind":"shape","id":"sh/rm1k7yt4","slide":4,"bbox":[560,0,1,720]}
+{"kind":"shape","id":"sh/ql8jytsj","slide":4,"bbox":[720,0,1,720]}
+{"kind":"shape","id":"sh/doj29oba","slide":4,"bbox":[880,0,1,720]}
+{"kind":"shape","id":"sh/sna103ap","slide":4,"bbox":[1040,0,1,720]}
+{"kind":"shape","id":"sh/3ihk3et8","slide":4,"bbox":[1200,0,1,720]}
+{"kind":"shape","id":"sh/ih8ju9sn","slide":4,"bbox":[0,90,1280,1]}
+{"kind":"shape","id":"sh/kbm987y5","slide":4,"bbox":[0,180,1280,1]}
+{"kind":"shape","id":"sh/5cva1cfq","slide":4,"bbox":[0,270,1280,1]}
+{"kind":"shape","id":"sh/i94r6xgz","slide":4,"bbox":[0,360,1280,1]}
+{"kind":"shape","id":"sh/jadsz2xk","slide":4,"bbox":[0,450,1280,1]}
+{"kind":"shape","id":"sh/w72947yt","slide":4,"bbox":[0,540,1280,1]}
+{"kind":"shape","id":"sh/x8vaxsfe","slide":4,"bbox":[0,630,1280,1]}
+{"kind":"textbox","id":"sh/a5kr2xg3","slide":4,"text":"OPENSIRI / AGENT INFRA","textPreview":"OPENSIRI / AGENT INFRA","textChars":22,"textLines":1,"bbox":[56,28,300,18]}
+{"kind":"textbox","id":"sh/v6tsv2xo","slide":4,"text":"04  AGENTTEAMS ARCHITECTURE","textPreview":"04  AGENTTEAMS ARCHITECTURE","textChars":27,"textLines":1,"bbox":[884,28,340,18]}
+{"kind":"shape","id":"sh/g36tgryd","slide":4,"bbox":[56,56,1168,1]}
+{"kind":"textbox","id":"sh/h4fa9wfy","slide":4,"text":"四个不同职能 Agent，","textPreview":"四个不同职能 Agent，","textChars":13,"textLines":1,"bbox":[56,88,1168,58]}
+{"kind":"textbox","id":"sh/p0batw72","slide":4,"text":"不是四次相同的提示词。","textPreview":"不是四次相同的提示词。","textChars":11,"textLines":1,"bbox":[56,140,1168,58]}
+{"kind":"shape","id":"sh/oz29krqh","slide":4,"bbox":[106,357,760,2]}
+{"kind":"shape","id":"sh/3ytsrmpw","slide":4,"bbox":[312,315,2,0]}
+{"kind":"shape","id":"sh/2xkrih8b","slide":4,"bbox":[534,315,2,0]}
+{"kind":"shape","id":"sh/1wbapc7q","slide":4,"bbox":[756,315,2,0]}
+{"kind":"shape","id":"sh/gv29g7q5","slide":4,"bbox":[88,276,184,168]}
+{"kind":"textbox","id":"sh/fu9sn2p0","slide":4,"text":"A1","textPreview":"A1","textChars":2,"textLines":1,"bbox":[104,294,45,22]}
+{"kind":"textbox","id":"sh/et0reh8f","slide":4,"text":"对话分析","textPreview":"对话分析","textChars":4,"textLines":1,"bbox":[104,335,150,34]}
+{"kind":"textbox","id":"sh/tsrqlc7u","slide":4,"text":"意图 / 情绪 / 待回应事项","textPreview":"意图 / 情绪 / 待回应事项","textChars":15,"textLines":1,"bbox":[104,386,150,36]}
+{"kind":"shape","id":"sh/sri9s7q9","slide":4,"bbox":[310,276,184,168]}
+{"kind":"textbox","id":"sh/ilwf69kv","slide":4,"text":"A2","textPreview":"A2","textChars":2,"textLines":1,"bbox":[326,294,45,22]}
+{"kind":"textbox","id":"sh/jm5gze1g","slide":4,"text":"用户上下文","textPreview":"用户上下文","textChars":5,"textLines":1,"bbox":[326,335,150,34]}
+{"kind":"textbox","id":"sh/knex8j21","slide":4,"text":"关系 / 语气 / 禁止承诺","textPreview":"关系 / 语气 / 禁止承诺","textChars":14,"textLines":1,"bbox":[326,386,150,36]}
+{"kind":"shape","id":"sh/5ony1oj6","slide":4,"bbox":[532,276,184,168]}
+{"kind":"textbox","id":"sh/axcf29kj","slide":4,"text":"A3","textPreview":"A3","textChars":2,"textLines":1,"bbox":[548,294,45,22]}
+{"kind":"textbox","id":"sh/vy5gbe14","slide":4,"text":"回复策略","textPreview":"回复策略","textChars":4,"textLines":1,"bbox":[548,335,150,34]}
+{"kind":"textbox","id":"sh/wzex4z2p","slide":4,"text":"简洁 / 友好 / 稳妥","textPreview":"简洁 / 友好 / 稳妥","textChars":12,"textLines":1,"bbox":[548,386,150,36]}
+{"kind":"shape","id":"sh/xknyx4ja","slide":4,"bbox":[754,276,184,168]}
+{"kind":"textbox","id":"sh/mtcfypkn","slide":4,"text":"A4","textPreview":"A4","textChars":2,"textLines":1,"bbox":[770,294,45,22]}
+{"kind":"textbox","id":"sh/nulw7u18","slide":4,"text":"质量验证","textPreview":"质量验证","textChars":4,"textLines":1,"bbox":[770,335,150,34]}
+{"kind":"textbox","id":"sh/fm5c3q54","slide":4,"text":"通过 / 注意 / 拒绝","textPreview":"通过 / 注意 / 拒绝","textChars":12,"textLines":1,"bbox":[770,386,150,36]}
+{"kind":"textbox","id":"sh/elwba54j","slide":4,"text":"MATRIX ROOM","textPreview":"MATRIX ROOM","textChars":11,"textLines":1,"bbox":[354,474,310,24]}
+{"kind":"textbox","id":"sh/18nu50nu","slide":4,"text":"任务、状态、证据与人工消息都在同一协作空间中可见","textPreview":"任务、状态、证据与人工消息都在同一协作空间中可见","textChars":24,"textLines":1,"bbox":[230,508,560,40]}
+{"kind":"shape","id":"sh/0netcvm9","slide":4,"bbox":[972,256,252,292]}
+{"kind":"textbox","id":"sh/rilczq5s","slide":4,"text":"TEAM LEADER","textPreview":"TEAM LEADER","textChars":11,"textLines":1,"bbox":[996,282,204,24]}
+{"kind":"textbox","id":"sh/qhcb6l47","slide":4,"text":"负责交接，\n不替代 Worker。","textPreview":"负责交接， | 不替代 Worker。","textChars":17,"textLines":2,"bbox":[996,329,204,78]}
+{"kind":"shape","id":"sh/dknu10ny","slide":4,"bbox":[996,435,204,1]}
+{"kind":"textbox","id":"sh/sjut8vmd","slide":4,"text":"Reviewer 可以打回\nStrategist 重写；\n最多 2 次。","textPreview":"Reviewer 可以打回 | Strategist 重写； | 最多 2 次。","textChars":36,"textLines":3,"bbox":[996,458,204,74]}
+{"kind":"notes","id":"nt/jyx0ra1s","slide":4,"text":"强调职能差异与制衡：Manager 和 Team Leader 不计作凑数的功能 Agent，四个 Worker 本身已超过赛道下限。\n\n[Sources]\n- AgentTeams repository: https://github.com/agentscope-ai/AgentTeams/\n- GOAI Agent Infra track: https://goaihz.com/tracks?track=infra"}
+{"kind":"slide","id":"sl/i107q5of","slide":5,"title":"OPENSIRI / AGENT INFRA","textShapes":19}
+{"kind":"textbox","id":"sh/3i94r61s","slide":5,"text":"OPENSIRI / AGENT INFRA","textPreview":"OPENSIRI / AGENT INFRA","textChars":22,"textLines":1,"bbox":[56,28,300,18]}
+{"kind":"textbox","id":"sh/dgbulwnm","slide":5,"text":"05  THREE BUILT-IN SKILLS","textPreview":"05  THREE BUILT-IN SKILLS","textChars":25,"textLines":1,"bbox":[884,28,340,18]}
+{"kind":"shape","id":"sh/cf2tcr61","slide":5,"bbox":[56,56,1168,1]}
+{"kind":"textbox","id":"sh/z2tcnm5s","slide":5,"text":"主 Skill 先做深，","textPreview":"主 Skill 先做深，","textChars":12,"textLines":1,"bbox":[56,88,1168,58]}
+{"kind":"textbox","id":"sh/yhkbe1o7","slide":5,"text":"另外两项复用同一基础设施。","textPreview":"另外两项复用同一基础设施。","textChars":13,"textLines":1,"bbox":[56,140,1168,58]}
+{"kind":"textbox","id":"sh/l4bupwny","slide":5,"text":"SKILL / 01","textPreview":"SKILL / 01","textChars":10,"textLines":1,"bbox":[56,250,340,22]}
+{"kind":"textbox","id":"sh/032tgr6d","slide":5,"text":"微信截图\n智能回复","textPreview":"微信截图 | 智能回复","textChars":9,"textLines":2,"bbox":[56,306,340,110]}
+{"kind":"textbox","id":"sh/n6dcr65o","slide":5,"text":"“这句话，到底该怎么回？”","textPreview":"“这句话，到底该怎么回？”","textChars":13,"textLines":1,"bbox":[56,438,340,54]}
+{"kind":"textbox","id":"sh/m5kbi1oj","slide":5,"text":"识别对话 · 结合用户\n生成三条经验证候选","textPreview":"识别对话 · 结合用户 | 生成三条经验证候选","textChars":21,"textLines":2,"bbox":[56,510,340,64]}
+{"kind":"shape","id":"sh/w32dkbuh","slide":5,"bbox":[56,600,340,3]}
+{"kind":"textbox","id":"sh/x4vedgvm","slide":5,"text":"完整端到端","textPreview":"完整端到端","textChars":5,"textLines":1,"bbox":[56,618,340,22]}
+{"kind":"shape","id":"sh/ahkvi1cb","slide":5,"bbox":[425,250,1,380]}
+{"kind":"textbox","id":"sh/v2twb6dw","slide":5,"text":"SKILL / 02","textPreview":"SKILL / 02","textChars":10,"textLines":1,"bbox":[445,250,340,22]}
+{"kind":"textbox","id":"sh/k7mxovud","slide":5,"text":"划词\n改写","textPreview":"划词 | 改写","textChars":5,"textLines":2,"bbox":[445,306,340,110]}
+{"kind":"textbox","id":"sh/58vehgvy","slide":5,"text":"“换个说法，但还是像我。”","textPreview":"“换个说法，但还是像我。”","textChars":13,"textLines":1,"bbox":[445,438,340,54]}
+{"kind":"textbox","id":"sh/i54fmlc7","slide":5,"text":"扩写 · 缩写 · 润色\n语气转换","textPreview":"扩写 · 缩写 · 润色 | 语气转换","textChars":17,"textLines":2,"bbox":[445,510,340,64]}
+{"kind":"shape","id":"sh/j6dwfqds","slide":5,"bbox":[445,600,340,3]}
+{"kind":"textbox","id":"sh/sb6xsvu9","slide":5,"text":"合同 + 可重放链路","textPreview":"合同 + 可重放链路","textChars":10,"textLines":1,"bbox":[445,618,340,22]}
+{"kind":"shape","id":"sh/tcfel0vu","slide":5,"bbox":[814,250,1,380]}
+{"kind":"textbox","id":"sh/hgrmpwj2","slide":5,"text":"SKILL / 03","textPreview":"SKILL / 03","textChars":10,"textLines":1,"bbox":[834,250,340,22]}
+{"kind":"textbox","id":"sh/gfi5grih","slide":5,"text":"截图行动\n建议","textPreview":"截图行动 | 建议","textChars":7,"textLines":2,"bbox":[834,306,340,110]}
+{"kind":"textbox","id":"sh/fe94nm1w","slide":5,"text":"“我看懂了，然后呢？”","textPreview":"“我看懂了，然后呢？”","textChars":11,"textLines":1,"bbox":[834,438,340,54]}
+{"kind":"textbox","id":"sh/ud0ne10b","slide":5,"text":"理解截图 · 标记风险\n给出下一步","textPreview":"理解截图 · 标记风险 | 给出下一步","textChars":17,"textLines":2,"bbox":[834,510,340,64]}
+{"kind":"shape","id":"sh/pkr6tgjy","slide":5,"bbox":[834,600,340,3]}
+{"kind":"textbox","id":"sh/4ji5kbid","slide":5,"text":"合同 + 可重放链路","textPreview":"合同 + 可重放链路","textChars":10,"textLines":1,"bbox":[834,618,340,22]}
+{"kind":"notes","id":"nt/i107q5of","slide":5,"text":"评审要求内置三个 Skill。范围控制方式是主 Skill 完整闭环，其余两个共享客户端—AgentTeams 契约和验证机制，避免三条半成品。\n\n[Sources]\n- GOAI Agent Infra track: https://goaihz.com/tracks?track=infra\n- Internal OpenSiri design specification"}
+{"kind":"slide","id":"sl/x8f69ofe","slide":6,"title":"OPENSIRI / AGENT INFRA","textShapes":13}
+{"kind":"shape","id":"sh/50bqpcj2","slide":6,"bbox":[80,0,1,720]}
+{"kind":"shape","id":"sh/yhg7epsj","slide":6,"bbox":[240,0,1,720]}
+{"kind":"shape","id":"sh/zi98nu94","slide":6,"bbox":[400,0,1,720]}
+{"kind":"shape","id":"sh/87ipkzal","slide":6,"bbox":[560,0,1,720]}
+{"kind":"shape","id":"sh/98rqt4r6","slide":6,"bbox":[720,0,1,720]}
+{"kind":"shape","id":"sh/ml07i9sv","slide":6,"bbox":[880,0,1,720]}
+{"kind":"shape","id":"sh/7m98ru9g","slide":6,"bbox":[1040,0,1,720]}
+{"kind":"shape","id":"sh/oryp8fah","slide":6,"bbox":[1200,0,1,720]}
+{"kind":"shape","id":"sh/pc76hkr2","slide":6,"bbox":[0,90,1280,1]}
+{"kind":"shape","id":"sh/h4bupgn6","slide":6,"bbox":[0,180,1280,1]}
+{"kind":"shape","id":"sh/w32twb6l","slide":6,"bbox":[0,270,1280,1]}
+{"kind":"shape","id":"sh/v2tcn650","slide":6,"bbox":[0,360,1280,1]}
+{"kind":"shape","id":"sh/u1kbu1ov","slide":6,"bbox":[0,450,1280,1]}
+{"kind":"shape","id":"sh/5svutgni","slide":6,"bbox":[0,540,1280,1]}
+{"kind":"shape","id":"sh/47mt0b6x","slide":6,"bbox":[0,630,1280,1]}
+{"kind":"textbox","id":"sh/j6dcr65c","slide":6,"text":"OPENSIRI / AGENT INFRA","textPreview":"OPENSIRI / AGENT INFRA","textChars":22,"textLines":1,"bbox":[56,28,300,18]}
+{"kind":"textbox","id":"sh/i54bylor","slide":6,"text":"06  FEASIBILITY","textPreview":"06  FEASIBILITY","textChars":15,"textLines":1,"bbox":[884,28,340,18]}
+{"kind":"shape","id":"sh/twfux0ne","slide":6,"bbox":[56,56,1168,1]}
+{"kind":"textbox","id":"sh/svmt4v6t","slide":6,"text":"OpenSiri 已解决“怎么进入系统”，","textPreview":"OpenSiri 已解决“怎么进入系统”，","textChars":21,"textLines":1,"bbox":[56,88,1168,58]}
+{"kind":"textbox","id":"sh/cbe5g3ih","slide":6,"text":"AgentTeams 解决“进入后谁来协作”。","textPreview":"AgentTeams 解决“进入后谁来协作”。","textChars":23,"textLines":1,"bbox":[56,140,1168,58]}
+{"kind":"shape","id":"sh/dcnm98zm","slide":6,"bbox":[56,238,500,374]}
+{"kind":"textbox","id":"sh/qpwnet0b","slide":6,"text":"EXPERIENCE PLANE","textPreview":"EXPERIENCE PLANE","textChars":16,"textLines":1,"bbox":[82,264,250,22]}
+{"kind":"textbox","id":"sh/bq547yhw","slide":6,"text":"OpenSiri / OpenSiri","textPreview":"OpenSiri / OpenSiri","textChars":19,"textLines":1,"bbox":[82,310,410,40]}
+{"kind":"textbox","id":"sh/0fy5k3id","slide":6,"text":"✓ 全局快捷键\n✓ 区域截图与本地 OCR\n✓ 划词、当前输入框与剪贴板\n✓ 浮动窗口与安全文本回写","textPreview":"✓ 全局快捷键 | ✓ 区域截图与本地 OCR | ✓ 划词、当前输入框与剪贴板 | ✓ 浮动窗口与安全文本回写","textChars":50,"textLines":4,"bbox":[82,378,410,150]}
+{"kind":"textbox","id":"sh/lg76d8zy","slide":6,"text":"最昂贵的 macOS 平台能力已经存在","textPreview":"最昂贵的 macOS 平台能力已经存在","textChars":19,"textLines":1,"bbox":[82,556,410,30]}
+{"kind":"textbox","id":"sh/ydgnit07","slide":6,"text":"×","textPreview":"×","textChars":1,"textLines":1,"bbox":[590,360,100,80]}
+{"kind":"shape","id":"sh/zep4byhs","slide":6,"bbox":[724,238,500,374]}
+{"kind":"textbox","id":"sh/gju58ji9","slide":6,"text":"COLLABORATION PLANE","textPreview":"COLLABORATION PLANE","textChars":19,"textLines":1,"bbox":[750,264,280,22]}
+{"kind":"textbox","id":"sh/1k3mhozu","slide":6,"text":"AgentTeams","textPreview":"AgentTeams","textChars":10,"textLines":1,"bbox":[750,310,410,40]}
+{"kind":"textbox","id":"sh/jet8nm1c","slide":6,"text":"✓ Manager / Team Leader / Worker\n✓ Matrix 房间中的人机协作\n✓ Worker.spec.skills 分发能力\n✓ 状态、产物与凭证隔离","textPreview":"✓ Manager / Team Leader / Worker | ✓ Matrix 房间中的人机协作 | ✓ Worker.spec.skills 分发能力 | ✓ 状态、产物与凭证隔离","textChars":89,"textLines":4,"bbox":[750,378,410,150]}
+{"kind":"textbox","id":"sh/idk7ehkr","slide":6,"text":"不在 App 进程里重造一套多 Agent 平台","textPreview":"不在 App 进程里重造一套多 Agent 平台","textChars":24,"textLines":1,"bbox":[750,556,410,30]}
+{"kind":"notes","id":"nt/x8f69ofe","slide":6,"text":"可行性来自清晰边界：客户端轻、协作后端独立。两侧只通过版本化 Matrix 事件耦合。\n\n[Sources]\n- OpenSiri repository: https://github.com/TobeBetterV/opensiri\n- AgentTeams repository: https://github.com/agentscope-ai/AgentTeams/"}
+{"kind":"slide","id":"sl/gnmp4jqx","slide":7,"title":"OPENSIRI / AGENT INFRA","textShapes":21}
+{"kind":"textbox","id":"sh/c3a5wzq5","slide":7,"text":"OPENSIRI / AGENT INFRA","textPreview":"OPENSIRI / AGENT INFRA","textChars":22,"textLines":1,"bbox":[56,28,300,18]}
+{"kind":"textbox","id":"sh/cb2tkvap","slide":7,"text":"07  OBSERVABLE + RECOVERABLE","textPreview":"07  OBSERVABLE + RECOVERABLE","textChars":28,"textLines":1,"bbox":[884,28,340,18]}
+{"kind":"shape","id":"sh/dcbud0ra","slide":7,"bbox":[56,56,1168,1]}
+{"kind":"textbox","id":"sh/ydkbm5sv","slide":7,"text":"从截图到回复，","textPreview":"从截图到回复，","textChars":7,"textLines":1,"bbox":[56,88,1168,58]}
+{"kind":"textbox","id":"sh/zedcfa9g","slide":7,"text":"每一步都能被看见和纠正。","textPreview":"每一步都能被看见和纠正。","textChars":12,"textLines":1,"bbox":[56,140,1168,58]}
+{"kind":"shape","id":"sh/kzmdova1","slide":7,"bbox":[82,346,1106,2]}
+{"kind":"shape","id":"sh/l0vuh0rm","slide":7,"bbox":[108,331,31,31]}
+{"kind":"textbox","id":"sh/eh0ba1sr","slide":7,"text":"截图","textPreview":"截图","textChars":2,"textLines":1,"bbox":[66,384,115,30]}
+{"kind":"shape","id":"sh/fi9c369c","slide":7,"bbox":[261,331,31,31]}
+{"kind":"textbox","id":"sh/baxkjqlk","slide":7,"text":"校对","textPreview":"校对","textChars":2,"textLines":1,"bbox":[219,384,115,30]}
+{"kind":"shape","id":"sh/a9ojq5kz","slide":7,"bbox":[414,331,31,31]}
+{"kind":"textbox","id":"sh/xcz2l03q","slide":7,"text":"提交","textPreview":"提交","textChars":2,"textLines":1,"bbox":[372,384,115,30]}
+{"kind":"shape","id":"sh/cbq1sv25","slide":7,"bbox":[567,331,31,31]}
+{"kind":"textbox","id":"sh/n6x0fqlo","slide":7,"text":"分析","textPreview":"分析","textChars":2,"textLines":1,"bbox":[525,384,115,30]}
+{"kind":"shape","id":"sh/25ojml43","slide":7,"bbox":[720,331,31,31]}
+{"kind":"textbox","id":"sh/p8fih03e","slide":7,"text":"生成","textPreview":"生成","textChars":2,"textLines":1,"bbox":[678,384,115,30]}
+{"kind":"shape","id":"sh/o761ov2t","slide":7,"bbox":[873,331,31,31]}
+{"kind":"textbox","id":"sh/f2d0b6lc","slide":7,"text":"验证","textPreview":"验证","textChars":2,"textLines":1,"bbox":[831,384,115,30]}
+{"kind":"shape","id":"sh/eh4jil4r","slide":7,"bbox":[1026,331,31,31]}
+{"kind":"textbox","id":"sh/id4ju1oz","slide":7,"text":"批准","textPreview":"批准","textChars":2,"textLines":1,"bbox":[984,384,115,30]}
+{"kind":"shape","id":"sh/jedkn654","slide":7,"bbox":[1179,331,31,31]}
+{"kind":"textbox","id":"sh/4fm1wb6p","slide":7,"text":"插入","textPreview":"插入","textChars":2,"textLines":1,"bbox":[1137,384,115,30]}
+{"kind":"textbox","id":"sh/50v2pgna","slide":7,"text":"NORMAL PATH","textPreview":"NORMAL PATH","textChars":11,"textLines":1,"bbox":[56,274,160,20]}
+{"kind":"shape","id":"sh/q143ylov","slide":7,"bbox":[82,468,326,120]}
+{"kind":"textbox","id":"sh/r2dkrq5g","slide":7,"text":"OCR 不确定","textPreview":"OCR 不确定","textChars":7,"textLines":1,"bbox":[104,488,270,28]}
+{"kind":"textbox","id":"sh/s3ml0v61","slide":7,"text":"回到校对；不把错误对话交给 Agent","textPreview":"回到校对；不把错误对话交给 Agent","textChars":19,"textLines":1,"bbox":[104,530,270,42]}
+{"kind":"shape","id":"sh/d4f2t0nm","slide":7,"bbox":[477,468,326,120]}
+{"kind":"textbox","id":"sh/e5o32lor","slide":7,"text":"Reviewer 拒绝","textPreview":"Reviewer 拒绝","textChars":11,"textLines":1,"bbox":[499,488,270,28]}
+{"kind":"textbox","id":"sh/f6xkvq5c","slide":7,"text":"带 reason code 回写，最多重试两次","textPreview":"带 reason code 回写，最多重试两次","textChars":23,"textLines":1,"bbox":[499,530,270,42]}
+{"kind":"shape","id":"sh/p0zmlk7u","slide":7,"bbox":[872,468,316,120]}
+{"kind":"textbox","id":"sh/ozq5szq9","slide":7,"text":"后端断开","textPreview":"后端断开","textChars":4,"textLines":1,"bbox":[894,488,260,28]}
+{"kind":"textbox","id":"sh/nyh4jupo","slide":7,"text":"保留同一 task ID，恢复后幂等重试","textPreview":"保留同一 task ID，恢复后幂等重试","textChars":20,"textLines":1,"bbox":[894,530,260,42]}
+{"kind":"textbox","id":"sh/2x8nqp83","slide":7,"text":"EVIDENCE","textPreview":"EVIDENCE","textChars":8,"textLines":1,"bbox":[56,632,90,18]}
+{"kind":"textbox","id":"sh/x4j6p47q","slide":7,"text":"Agent 状态 · 处理耗时 · 验证结论 · reason code · 人工修改摘要","textPreview":"Agent 状态 · 处理耗时 · 验证结论 · reason code · 人工修改摘要","textChars":45,"textLines":1,"bbox":[166,628,980,24]}
+{"kind":"notes","id":"nt/gnmp4jqx","slide":7,"text":"这页对应赛道看重的完整闭环：上下文传递、工具调用、验证证据、人工审批、失败处理与回滚。\n\n[Sources]\n- GOAI Agent Infra track: https://goaihz.com/tracks?track=infra\n- Internal implementation plan: docs/exec-plans/active/2026-08-16-opensiri-agentteams.md"}
+{"kind":"slide","id":"sl/fu1gfa1s","slide":8,"title":"OPENSIRI / PRIVACY BY DEFAULT","textShapes":15}
+{"kind":"shape","id":"sh/b2hs3il8","slide":8,"bbox":[80,0,1,720]}
+{"kind":"shape","id":"sh/18byd4zy","slide":8,"bbox":[240,0,1,720]}
+{"kind":"shape","id":"sh/g72x4zyd","slide":8,"bbox":[400,0,1,720]}
+{"kind":"shape","id":"sh/ri9g7uhw","slide":8,"bbox":[560,0,1,720]}
+{"kind":"shape","id":"sh/6h0fypgb","slide":8,"bbox":[720,0,1,720]}
+{"kind":"shape","id":"sh/tkby9kzm","slide":8,"bbox":[880,0,1,720]}
+{"kind":"shape","id":"sh/sjix0zy1","slide":8,"bbox":[1040,0,1,720]}
+{"kind":"shape","id":"sh/je9g3ahk","slide":8,"bbox":[1200,0,1,720]}
+{"kind":"shape","id":"sh/id0fu50z","slide":8,"bbox":[0,90,1280,1]}
+{"kind":"shape","id":"sh/o7ydoret","slide":8,"bbox":[0,180,1280,1]}
+{"kind":"shape","id":"sh/98rehwve","slide":8,"bbox":[0,270,1280,1]}
+{"kind":"shape","id":"sh/m5gvmhwn","slide":8,"bbox":[0,360,1280,1]}
+{"kind":"shape","id":"sh/n6pwfmd8","slide":8,"bbox":[0,450,1280,1]}
+{"kind":"shape","id":"sh/0jydkreh","slide":8,"bbox":[0,540,1280,1]}
+{"kind":"shape","id":"sh/1k7edwv2","slide":8,"bbox":[0,630,1280,1]}
+{"kind":"textbox","id":"sh/ehgvihwr","slide":8,"text":"OPENSIRI / PRIVACY BY DEFAULT","textPreview":"OPENSIRI / PRIVACY BY DEFAULT","textChars":29,"textLines":1,"bbox":[56,28,380,18]}
+{"kind":"textbox","id":"sh/zipwbmdc","slide":8,"text":"08  HUMAN CONTROL","textPreview":"08  HUMAN CONTROL","textChars":17,"textLines":1,"bbox":[884,28,340,18]}
+{"kind":"shape","id":"sh/kfixwbe1","slide":8,"bbox":[56,56,1168,1]}
+{"kind":"textbox","id":"sh/lgbepgvm","slide":8,"text":"我需要上下文，","textPreview":"我需要上下文，","textChars":7,"textLines":1,"bbox":[56,94,780,58]}
+{"kind":"textbox","id":"sh/tw7e9gnq","slide":8,"text":"不需要你的人生。","textPreview":"不需要你的人生。","textChars":8,"textLines":1,"bbox":[56,146,780,58]}
+{"kind":"shape","id":"sh/svydgb65","slide":8,"bbox":[74,252,430,330]}
+{"kind":"shape","id":"sh/7u5w765k","slide":8,"bbox":[124,294,330,246]}
+{"kind":"shape","id":"sh/6twve1oz","slide":8,"bbox":[191,345,196,144]}
+{"kind":"textbox","id":"sh/kredcr6t","slide":8,"text":"RAW SCREENSHOT","textPreview":"RAW SCREENSHOT","textChars":14,"textLines":1,"bbox":[188,606,202,18]}
+{"kind":"textbox","id":"sh/jq5w365o","slide":8,"text":"01","textPreview":"01","textChars":2,"textLines":1,"bbox":[590,262,55,24]}
+{"kind":"textbox","id":"sh/i5wva1o3","slide":8,"text":"本地 OCR","textPreview":"本地 OCR","textChars":6,"textLines":1,"bbox":[660,260,480,32]}
+{"kind":"textbox","id":"sh/x4ne1wni","slide":8,"text":"原始截图默认不上传；先在 Mac 上完成结构化与人工校对。","textPreview":"原始截图默认不上传；先在 Mac 上完成结构化与人工校对。","textChars":29,"textLines":1,"bbox":[660,300,500,56]}
+{"kind":"shape","id":"sh/w3ed8r6x","slide":8,"bbox":[590,362,594,1]}
+{"kind":"textbox","id":"sh/m9sb2x4v","slide":8,"text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[590,378,55,24]}
+{"kind":"textbox","id":"sh/na1sb2lg","slide":8,"text":"最小上下文","textPreview":"最小上下文","textChars":5,"textLines":1,"bbox":[660,376,480,32]}
+{"kind":"textbox","id":"sh/8bat47ml","slide":8,"text":"不同 Agent 只拿到完成当前任务所需的字段。","textPreview":"不同 Agent 只拿到完成当前任务所需的字段。","textChars":24,"textLines":1,"bbox":[660,416,500,56]}
+{"kind":"shape","id":"sh/9w3uds36","slide":8,"bbox":[590,478,594,1]}
+{"kind":"textbox","id":"sh/y5sbed4j","slide":8,"text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[590,494,55,24]}
+{"kind":"textbox","id":"sh/z61s7il4","slide":8,"text":"人工审批","textPreview":"人工审批","textChars":4,"textLines":1,"bbox":[660,492,480,32]}
+{"kind":"textbox","id":"sh/07atgnmp","slide":8,"text":"仅复制或插入；首版永不自动发送微信消息。","textPreview":"仅复制或插入；首版永不自动发送微信消息。","textChars":20,"textLines":1,"bbox":[660,532,500,56]}
+{"kind":"shape","id":"sh/l8ja9s3a","slide":8,"bbox":[590,618,594,44]}
+{"kind":"textbox","id":"sh/q18bad4n","slide":8,"text":"我不会替你发送，所以也不会替你社死。","textPreview":"我不会替你发送，所以也不会替你社死。","textChars":18,"textLines":1,"bbox":[610,629,554,22]}
+{"kind":"image","id":"im/8n2lovm5","slide":8,"name":"","bbox":[236,358,106,106]}
+{"kind":"notes","id":"nt/fu1gfa1s","slide":8,"text":"隐私边界是产品机制，不是免责声明：本地 OCR、按任务最小化上下文、Keychain 凭证、人工最终批准。\n\n[Sources]\n- Internal OpenSiri design specification\n- Apple platform security primitives are used through existing macOS APIs.\n- Logo asset supplied by the project owner (transparent color-line PNG)."}
+{"kind":"slide","id":"sl/udsvah03","slide":9,"title":"OPENSIRI / AGENT INFRA","textShapes":22}
+{"kind":"shape","id":"sh/0bel8na9","slide":9,"bbox":[80,0,1,720]}
+{"kind":"shape","id":"sh/1cfmhgne","slide":9,"bbox":[240,0,1,720]}
+{"kind":"shape","id":"sh/0b65obm9","slide":9,"bbox":[400,0,1,720]}
+{"kind":"shape","id":"sh/nex4jq5k","slide":9,"bbox":[560,0,1,720]}
+{"kind":"shape","id":"sh/mdonql4z","slide":9,"bbox":[720,0,1,720]}
+{"kind":"shape","id":"sh/9gzml0nq","slide":9,"bbox":[880,0,1,720]}
+{"kind":"shape","id":"sh/ofq5svm5","slide":9,"bbox":[1040,0,1,720]}
+{"kind":"shape","id":"sh/bih4na5w","slide":9,"bbox":[1200,0,1,720]}
+{"kind":"shape","id":"sh/ah8nu54b","slide":9,"bbox":[0,90,1280,1]}
+{"kind":"shape","id":"sh/oza1gfyh","slide":9,"bbox":[0,180,1280,1]}
+{"kind":"shape","id":"sh/p0ji9kf2","slide":9,"bbox":[0,270,1280,1]}
+{"kind":"shape","id":"sh/2xsjepgb","slide":9,"bbox":[0,360,1280,1]}
+{"kind":"shape","id":"sh/3y107axw","slide":9,"bbox":[0,450,1280,1]}
+{"kind":"shape","id":"sh/cnu1kzyd","slide":9,"bbox":[0,540,1280,1]}
+{"kind":"shape","id":"sh/do3id4fy","slide":9,"bbox":[0,630,1280,1]}
+{"kind":"textbox","id":"sh/qlcjipgn","slide":9,"text":"OPENSIRI / AGENT INFRA","textPreview":"OPENSIRI / AGENT INFRA","textChars":22,"textLines":1,"bbox":[56,28,300,18]}
+{"kind":"textbox","id":"sh/bml0buxs","slide":9,"text":"09  IMPLEMENTATION PATH","textPreview":"09  IMPLEMENTATION PATH","textChars":23,"textLines":1,"bbox":[884,28,340,18]}
+{"kind":"shape","id":"sh/0ru1ozyp","slide":9,"bbox":[56,56,1168,1]}
+{"kind":"textbox","id":"sh/lsn2h4fa","slide":9,"text":"复赛前只交付一条完整主链路，","textPreview":"复赛前只交付一条完整主链路，","textChars":14,"textLines":1,"bbox":[56,88,1168,58]}
+{"kind":"textbox","id":"sh/98ji147e","slide":9,"text":"两周把证据做实。","textPreview":"两周把证据做实。","textChars":8,"textLines":1,"bbox":[56,140,1168,58]}
+{"kind":"textbox","id":"sh/87a18zqt","slide":9,"text":"先稳定合同，再做解析、Matrix、窗口、AgentTeams 包；不同时扩张三套 UI。","textPreview":"先稳定合同，再做解析、Matrix、窗口、AgentTeams 包；不同时扩张三套 UI。","textChars":45,"textLines":1,"bbox":[56,190,1020,30]}
+{"kind":"shape","id":"sh/76h0zup8","slide":9,"bbox":[84,490,1094,2]}
+{"kind":"shape","id":"sh/ml8j6p8n","slide":9,"bbox":[56,250,226,172]}
+{"kind":"textbox","id":"sh/hcji5o7a","slide":9,"text":"D1–2","textPreview":"D1–2","textChars":4,"textLines":1,"bbox":[72,268,194,20]}
+{"kind":"textbox","id":"sh/wba1cjqp","slide":9,"text":"合同 + OCR","textPreview":"合同 + OCR","textChars":8,"textLines":1,"bbox":[72,308,194,34]}
+{"kind":"textbox","id":"sh/va103ep4","slide":9,"text":"Schema\n微信气泡解析","textPreview":"Schema | 微信气泡解析","textChars":13,"textLines":2,"bbox":[72,355,194,52]}
+{"kind":"shape","id":"sh/u9sja98z","slide":9,"bbox":[161,482,16,16]}
+{"kind":"shape","id":"sh/xgzitk76","slide":9,"bbox":[292,300,268,172]}
+{"kind":"textbox","id":"sh/cf6h0fql","slide":9,"text":"D3–5","textPreview":"D3–5","textChars":4,"textLines":1,"bbox":[308,318,236,20]}
+{"kind":"textbox","id":"sh/2l4faloj","slide":9,"text":"Matrix 闭环","textPreview":"Matrix 闭环","textChars":9,"textLines":1,"bbox":[308,358,236,34]}
+{"kind":"textbox","id":"sh/nmdg3q54","slide":9,"text":"任务事件\n状态与恢复","textPreview":"任务事件 | 状态与恢复","textChars":10,"textLines":2,"bbox":[308,405,236,52]}
+{"kind":"shape","id":"sh/onmxcv69","slide":9,"bbox":[418,482,16,16]}
+{"kind":"shape","id":"sh/pofy50nu","slide":9,"bbox":[570,250,260,172]}
+{"kind":"textbox","id":"sh/apofe5of","slide":9,"text":"D6–8","textPreview":"D6–8","textChars":4,"textLines":1,"bbox":[586,268,228,20]}
+{"kind":"textbox","id":"sh/bqxg7q50","slide":9,"text":"OpenSiri 窗口","textPreview":"OpenSiri 窗口","textChars":11,"textLines":1,"bbox":[586,308,228,34]}
+{"kind":"textbox","id":"sh/cr6xgv6l","slide":9,"text":"校对 · 进度\n三候选 · 审批","textPreview":"校对 · 进度 | 三候选 · 审批","textChars":16,"textLines":2,"bbox":[586,355,228,52]}
+{"kind":"shape","id":"sh/xcfy90n6","slide":9,"bbox":[692,482,16,16]}
+{"kind":"shape","id":"sh/qtkf21ob","slide":9,"bbox":[840,300,248,172]}
+{"kind":"textbox","id":"sh/rutwv65w","slide":9,"text":"D9–11","textPreview":"D9–11","textChars":5,"textLines":1,"bbox":[856,318,216,20]}
+{"kind":"textbox","id":"sh/7y14jyd8","slide":9,"text":"AgentTeams 包","textPreview":"AgentTeams 包","textChars":12,"textLines":1,"bbox":[856,358,216,34]}
+{"kind":"textbox","id":"sh/mdsnatcn","slide":9,"text":"四 Worker\n三个 Product Skill","textPreview":"四 Worker | 三个 Product Skill","textChars":25,"textLines":2,"bbox":[856,405,216,52]}
+{"kind":"shape","id":"sh/903ml8be","slide":9,"bbox":[956,482,16,16]}
+{"kind":"shape","id":"sh/8zu5c3ut","slide":9,"bbox":[1098,250,126,172]}
+{"kind":"textbox","id":"sh/v2l4nitk","slide":9,"text":"D12–14","textPreview":"D12–14","textChars":6,"textLines":1,"bbox":[1114,268,94,20]}
+{"kind":"textbox","id":"sh/u1cnedcz","slide":9,"text":"证据 + Demo","textPreview":"证据 + Demo","textChars":9,"textLines":1,"bbox":[1114,308,94,34]}
+{"kind":"textbox","id":"sh/h43mp8ba","slide":9,"text":"30 条脱敏任务\nP50 / P95 / 成功率","textPreview":"30 条脱敏任务 | P50 / P95 / 成功率","textChars":24,"textLines":2,"bbox":[1114,355,94,52]}
+{"kind":"shape","id":"sh/w3u5g3u5","slide":9,"bbox":[1153,482,16,16]}
+{"kind":"textbox","id":"sh/j6l4ritg","slide":9,"text":"SCOPE GATE","textPreview":"SCOPE GATE","textChars":10,"textLines":1,"bbox":[56,612,130,18]}
+{"kind":"textbox","id":"sh/i5cnidcv","slide":9,"text":"如延期：先砍另外两个 Skill 的专用 UI，再砍高级记忆；不砍四 Agent、验证、审批与证据。","textPreview":"如延期：先砍另外两个 Skill 的专用 UI，再砍高级记忆；不砍四 Agent、验证、审批与证据。","textChars":50,"textLines":1,"bbox":[204,606,990,38]}
+{"kind":"notes","id":"nt/udsvah03","slide":9,"text":"把实现顺序和砍范围原则讲清楚，证明复赛范围可控。完整计划已拆成 15 个可验证 Task。\n\n[Sources]\n- Internal implementation plan: docs/exec-plans/active/2026-08-16-opensiri-agentteams.md\n- GOAI Agent Infra schedule: https://goaihz.com/tracks?track=infra"}
+{"kind":"slide","id":"sl/m90b6t0r","slide":10,"title":"OPENSIRI / AGENT INFRA","textShapes":8}
+{"kind":"shape","id":"sh/jypcrqd4","slide":10,"bbox":[80,0,1,720]}
+{"kind":"shape","id":"sh/xc3mho32","slide":10,"bbox":[240,0,1,720]}
+{"kind":"shape","id":"sh/cbu58j2h","slide":10,"bbox":[400,0,1,720]}
+{"kind":"shape","id":"sh/zelojyl8","slide":10,"bbox":[560,0,1,720]}
+{"kind":"shape","id":"sh/ydcnatkn","slide":10,"bbox":[720,0,1,720]}
+{"kind":"shape","id":"sh/l036l83y","slide":10,"bbox":[880,0,1,720]}
+{"kind":"shape","id":"sh/kzu5c32t","slide":10,"bbox":[1040,0,1,720]}
+{"kind":"shape","id":"sh/725onyl4","slide":10,"bbox":[1200,0,1,720]}
+{"kind":"shape","id":"sh/m1cnetkj","slide":10,"bbox":[0,90,1280,1]}
+{"kind":"shape","id":"sh/s7yt4b21","slide":10,"bbox":[0,180,1280,1]}
+{"kind":"shape","id":"sh/d87uxg3m","slide":10,"bbox":[0,270,1280,1]}
+{"kind":"shape","id":"sh/q5gb21kb","slide":10,"bbox":[0,360,1280,1]}
+{"kind":"shape","id":"sh/r6pcv6lw","slide":10,"bbox":[0,450,1280,1]}
+{"kind":"shape","id":"sh/0bit8b2d","slide":10,"bbox":[0,540,1280,1]}
+{"kind":"shape","id":"sh/1cru1g3y","slide":10,"bbox":[0,630,1280,1]}
+{"kind":"textbox","id":"sh/e9gb61k7","slide":10,"text":"OPENSIRI / AGENT INFRA","textPreview":"OPENSIRI / AGENT INFRA","textChars":22,"textLines":1,"bbox":[56,28,300,18]}
+{"kind":"textbox","id":"sh/fapcz6ls","slide":10,"text":"10  THE PROMISE","textPreview":"10  THE PROMISE","textChars":15,"textLines":1,"bbox":[884,28,340,18]}
+{"kind":"shape","id":"sh/ozitcv29","slide":10,"bbox":[56,56,1168,1]}
+{"kind":"textbox","id":"sh/p0ru503u","slide":10,"text":"这不是一个会替你说话的机器人。","textPreview":"这不是一个会替你说话的机器人。","textChars":15,"textLines":1,"bbox":[74,135,1132,70]}
+{"kind":"textbox","id":"sh/xwnupgvy","slide":10,"text":"是一支帮你想清楚、把风险说明白，","textPreview":"是一支帮你想清楚、把风险说明白，","textChars":16,"textLines":1,"bbox":[74,223,1132,62]}
+{"kind":"textbox","id":"sh/wvetgbud","slide":10,"text":"最后仍把决定交还给你的 Agent 团队。","textPreview":"最后仍把决定交还给你的 Agent 团队。","textChars":21,"textLines":1,"bbox":[74,285,1132,62]}
+{"kind":"shape","id":"sh/bu5cnqd8","slide":10,"bbox":[380,397,520,96]}
+{"kind":"textbox","id":"sh/atwbelcn","slide":10,"text":"截一张图   →   让团队商量","textPreview":"截一张图   →   让团队商量","textChars":16,"textLines":1,"bbox":[404,426,472,34]}
+{"kind":"textbox","id":"sh/lk7ut0va","slide":10,"text":"OPEN SOURCE · MACOS · AGENTTEAMS","textPreview":"OPEN SOURCE · MACOS · AGENTTEAMS","textChars":32,"textLines":1,"bbox":[74,560,1132,22]}
+{"kind":"textbox","id":"sh/kjytkvup","slide":10,"text":"OpenSiri","textPreview":"OpenSiri","textChars":8,"textLines":1,"bbox":[74,602,1132,52]}
+{"kind":"notes","id":"nt/m90b6t0r","slide":10,"text":"回到开场：OpenSiri 的差异不是‘更会写’，而是把上下文理解、策略生成、独立验证和人工决定做成一条可信基础设施。\n\n[Sources]\n- Project design and implementation plan; no external claim."}

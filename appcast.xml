@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!--
+  openSiri Sparkle 更新源。首个版本发布前保持空 channel。
+
+  发布前须先用 Sparkle 的 generate_keys 生成 openSiri 自己的 EdDSA 密钥对，
+  并把公钥写入 OpenSiri/App/Info.plist 的 SUPublicEDKey。
+  当前该字段仍是上游 Easydict 的公钥，openSiri 无对应私钥，无法签名更新包。
+-->
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+    <channel>
+        <title>openSiri</title>
+    </channel>
+</rss>

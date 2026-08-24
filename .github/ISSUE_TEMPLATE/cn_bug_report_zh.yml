@@ -1,0 +1,107 @@
+name: 反馈问题
+description: 反馈问题
+title: "🐞 反馈问题：请填写标题，不要留空"
+labels: ["bug"]
+
+body:
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: 请先确认以下事项：
+      options:
+        - label: 请务必查看 [常见问题](https://github.com/tisfeng/Easydict/wiki/%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98)
+          required: true
+        - label: 已仔细阅读了 [README](https://github.com/TobeBetterV/opensiri#readme)
+          required: true
+        - label: 在 [issues](https://github.com/TobeBetterV/opensiri/issues) 页面搜索过问题（包括已关闭的 issue），但未能找到解决方法
+          required: true
+        - label: OpenSiri 已升级到 [最新版本](https://github.com/TobeBetterV/opensiri/releases)
+          required: true
+        - label: 我理解并认可上述内容，并理解项目维护者精力有限，**不遵循规则的 issue 可能会被无视或直接关闭**
+          required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: 问题描述
+      description: |
+        请详细描述你所遇到的问题，确保开发者能够理解、重现该问题。如果上下文信息不足，导致开发者无法定位，问题会被降低优先级或忽略。
+        一个 issue 只描述一个问题，如果有多个问题，请分开提交。
+      placeholder: 问题描述
+    validations:
+      required: true
+
+  - type: dropdown
+    id: reproducible
+    attributes:
+      label: 该问题是否可以稳定重现？
+      multiple: false
+      options:
+        - 可重现
+        - 不可重现
+    validations:
+      required: true
+
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: 重现步骤
+      description: |
+        如果该问题可重现，请一定要详细提供重现步骤，否则开发者无法定位问题。
+        如果该问题是偶发性的，可以先尝试重启 OpenSiri，重启电脑，或卸载重装应用，看能否解决问题 🤔
+        注意：鉴于开发者精力有限，目前只会处理可稳定重现的问题。对于不可重现的问题，当前只会简单记录下来，观察后续。
+      placeholder: 重现步骤
+    validations:
+      required: true
+
+  - type: textarea
+    id: screenshot
+    attributes:
+      label: 截图
+      description: |
+        请提供问题截图。若截图不便于描述问题，请提供录屏，方便开发者排查。
+      placeholder: 请提供问题相关截图
+    validations:
+      required: true
+
+  - type: textarea
+    id: log
+    attributes:
+      label: 运行日志（zip 文件）
+      description: "请提供运行日志 zip 文件，方便开发者排查：菜单图标 -> 帮助 -> 导出日志。（日志目录：`~/Library/Caches/com.opensiri.OpenSiri/MMLogs`）"
+      placeholder: 请上传运行日志 zip 文件
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: 期望结果
+      description: 请描述您期望的结果。
+      placeholder: 你期望的结果
+    validations:
+      required: true
+
+  - type: textarea
+    id: resolution
+    attributes:
+      label: 解决方案（可选）
+      description: 对于该问题，您有什么预想的解决方案，或者建议？
+      placeholder: 你的解决方案
+
+  - type: input
+    id: device
+    attributes:
+      label: 设备型号 && 系统版本
+      description: 如果遇到比较奇怪的问题，请提供设备型号和操作系统版本，方便开发者排查。
+      placeholder: Apple M1 Pro, macOS 14.0
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: PR
+    attributes:
+      label: 是否愿意提交 PR 解决该问题？
+      description: 我们非常欢迎您提交 PR，当开发者人力不足时，提交 PR 是解决该问题最快的方式。如果对 objc 或 Swift 语言不熟悉，可以尝试使用 ChatGPT，也许它能帮到你。
+      options:
+        - label: 我愿意提交 PR 来解决该问题

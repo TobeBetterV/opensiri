@@ -1,0 +1,10 @@
+#!/bin/bash
+
+# 在这里添加你的应用程序执行命令
+# 例如：
+# /path/to/your/application/OpenSiri "$@"
+
+
+# /Users/tisfeng/Library/Developer/Xcode/DerivedData/OpenSiri-entaqaylceybfqboqggmsizyhose/Build/Products/Debug/OpenSiri-debug.app/Contents/MacOS/OpenSiri-debug "$@"
+
+/System/Volumes/Data/Applications/OpenSiri.app/Contents/MacOS/OpenSiri "$@"

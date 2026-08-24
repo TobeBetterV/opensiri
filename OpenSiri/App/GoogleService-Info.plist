@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!--
+  占位配置 —— 发布前需替换为 openSiri 自己的 Firebase 项目。
+
+  迁移前此文件是上游 Easydict 的真实 Firebase 项目（easydict-7232d）凭据。
+  沿用会把 openSiri 的分析与崩溃数据写入上游账号，故已替换为占位值。
+
+  Firebase 仅在 release 构建中初始化（AnalyticsService.setupCrashService 的
+  #if !DEBUG 分支），debug 开发不受影响。
+  若 openSiri 不打算使用 Firebase Analytics，直接移除该依赖比填占位更干净。
+-->
+<plist version="1.0">
+<dict>
+	<key>API_KEY</key>
+	<string>REPLACE_WITH_OPENSIRI_FIREBASE_API_KEY</string>
+	<key>BUNDLE_ID</key>
+	<string>com.opensiri.OpenSiri</string>
+	<key>CLIENT_ID</key>
+	<string>000000000000-replaceme.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.000000000000-replaceme</string>
+	<key>GCM_SENDER_ID</key>
+	<string>000000000000</string>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:000000000000:ios:0000000000000000000000</string>
+	<key>PROJECT_ID</key>
+	<string>opensiri-placeholder</string>
+	<key>STORAGE_BUCKET</key>
+	<string>opensiri-placeholder.appspot.com</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>IS_ADS_ENABLED</key>
+	<false/>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false/>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true/>
+	<key>IS_GCM_ENABLED</key>
+	<true/>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true/>
+</dict>
+</plist>

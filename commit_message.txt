@@ -1,0 +1,21 @@
+feat(opensiri): 迁移 Easydict 客户端并加入智能截图
+
+openSiri 此前只有官网，macOS 客户端尚未入库。本次将 Easydict 客户端迁入仓库根目录并完成品牌替换，同时在截图翻译之上叠加对话结构化能力，作为 AgentTeams 回复功能的输入。
+
+迁移覆盖 51 个路径重命名与 601 个文件的内容改写：目录、Xcode 工程、workspace、xcconfig、entitlements、桥接头与 Pods 支持文件统一为 OpenSiri，Bundle ID 改为 com.opensiri.OpenSiri，URL scheme 改为 opensiri，Sparkle 更新源指向本仓库。指向上游 issue、PR 与 wiki 的 66 处引用链接按原样保留，它们是代码决策的依据；486 处 izual 版权声明依 GPL-3.0 要求原样保留。上游作者的 Apple 团队、Firebase 项目、Sparkle 公钥与共享 API Key 全部清空为占位，避免消耗其配额或将用户数据发往其账号。应用图标、菜单栏图标与关于面板图标改用 openSiri 品牌资源。
+
+新增智能截图：原截图翻译更名为「智能截图 Beta」，OCR 文本落入输入框后异步复跑一次带坐标的识别，按微信对话左右分栏的几何特征结构化为 ConversationSnapshot。输入框左下角出现「识别为 微信对话」标签，点击可改判为普通文本或进入审阅窗口逐条纠正发言人与文本。查询推迟到解读确定后触发，一次截图只翻译一次。
+
+同时调整三处默认行为：划词查询的语言排除项改为多选且默认不排除任何语言，点击图标才查询默认开启并隐藏该设置项，侧悬浮窗口默认居中。屏幕录制权限的「已请求」标志由持久化改为每次启动复位，避免 TCC 重置或换签名后再也无法重新申请。
+
+----------------------------------------------------------------------
+
+feat(opensiri): migrate Easydict client and add Smart Screenshot
+
+openSiri previously held only the website, with no macOS client in the repository. This migrates the Easydict client into the repository root, completes the rebrand, and layers conversation structuring on top of screenshot translation as the input for the upcoming AgentTeams reply feature.
+
+The migration covers 51 path renames and content rewrites across 601 files: directories, the Xcode project, workspace, xcconfig, entitlements, bridging header and Pods support files all become OpenSiri, the bundle identifier becomes com.opensiri.OpenSiri, the URL scheme becomes opensiri, and the Sparkle feed points at this repository. The 66 references to upstream issues, pull requests and wiki pages are kept verbatim because they document why the code looks the way it does, and 486 izual copyright notices are preserved as GPL-3.0 requires. The upstream author's Apple team, Firebase project, Sparkle public key and shared API keys are cleared to placeholders so the fork cannot spend their quota or send user data to their accounts. App, menu bar and about-panel icons now use openSiri brand assets.
+
+Smart Screenshot is new: the former screenshot translation is renamed "Smart Screenshot Beta", and once OCR text reaches the query input a second recognition pass runs asynchronously with geometry intact, structuring WeChat's left/right bubble layout into a ConversationSnapshot. A "Detected WeChat chat" chip appears at the bottom left of the input, where the reading can be corrected to plain text or opened in a review window to fix speakers and text line by line. The query waits for that reading to settle, so one capture is translated exactly once.
+
+Three defaults also change: the selection query's excluded languages become a multi-select that excludes nothing by default, click-to-query is on by default and its setting is hidden, and the side floating window is centered by default. The screen recording "already requested" flag moves from persisted to per-launch so a TCC reset or a re-signed build can request access again.

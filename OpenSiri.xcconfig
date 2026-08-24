@@ -1,0 +1,10 @@
+// 填入你自己的 Apple Developer Team ID 后再做签名构建。
+// 迁移前此处为上游 Easydict 作者的团队（45Z6V4YD5U），已清空。
+//
+// 不想把 Team ID 提交进仓库时，在 OpenSiri.local.xcconfig 里覆盖即可，
+// 该文件已被 .gitignore 忽略（debug 配置用的是同样的模式）。
+DEVELOPMENT_TEAM =
+CODE_SIGN_IDENTITY = Apple Development
+CODE_SIGN_STYLE = Automatic
+
+#include? "OpenSiri.local.xcconfig"
