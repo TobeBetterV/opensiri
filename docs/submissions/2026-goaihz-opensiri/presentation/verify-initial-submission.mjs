@@ -194,7 +194,7 @@ async function inspectLogoMedia(pptxPath) {
     .filter((entry) => !entry.dir && entry.name.startsWith("ppt/media/"));
   const allowedLogoPath = path.resolve(
     path.dirname(fileURLToPath(import.meta.url)),
-    "../../../../website/public/opensiri-logo.png",
+    "../../../../docs/assets/branding/opensiri-logo.png",
   );
   const allowedHash = sha256(await readFile(allowedLogoPath));
   const media = await Promise.all(mediaEntries.map(async (entry) => ({

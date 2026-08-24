@@ -41,7 +41,7 @@ worktree、Playwright CLI 输出和 TypeScript 增量编译产物规则。
 website 目录布局和本地开发命令，改为链接公开的新仓库。
 
 主仓库内的参赛演示生成与校验脚本仍需要品牌 PNG。为避免依赖相邻 checkout 或
-GitHub 网络，将 `website/public/opensiri-logo.png` 和
+GitHub 网络，将 `website/public/opensiri-logo-color.png` 和
 `website/public/opensiri-logo-mono.png` 复制到 `docs/assets/branding/`，并将
 `docs/submissions/2026-goaihz-opensiri/presentation/` 下的活动脚本改为读取新位置。
 历史记录、已完成计划和设计文档中的旧 `website/...` 路径保持不变，因为它们描述

@@ -27,7 +27,7 @@ openSiri 已经完成了基本的功能，但由于目前很多UI功能不够完
 - `OpenSiri/` — macOS 客户端源码（App / Swift / objc）
 - `OpenSiriTests/` — 单元测试与 OCR 样本
 - `OpenSiri.xcworkspace` — Xcode 工作区入口（CocoaPods，勿直接开 `.xcodeproj`）
-- `website/` — 官网（Next.js / vinext），介绍产品并承载落地页
+- [官网仓库](https://github.com/TobeBetterV/opensiri-website) — Next.js / vinext 产品落地页
 - `docs/` — 架构、执行计划、用户文档；`docs/inherited/` 存放继承自 Easydict 的说明
 - `scripts/` — 构建、发布与统计脚本
 
@@ -42,11 +42,8 @@ open OpenSiri.xcworkspace
 
 ## 官网开发
 
-```bash
-cd website
-npm install
-npm run dev
-```
+官网已经拆分到独立仓库：
+[TobeBetterV/opensiri-website](https://github.com/TobeBetterV/opensiri-website)。
 
 查看 [`Agent 架构`](https://cdn.opensiri.ai/opensiri-agent-infra-branded-1.pdf)。
 

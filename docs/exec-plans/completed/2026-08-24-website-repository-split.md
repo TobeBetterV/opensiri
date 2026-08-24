@@ -32,7 +32,7 @@
 - Consumes: 当前 `HEAD:website` tracked tree。
 - Produces: 无 `.git`、无 ignored 输出、可在根目录初始化的新仓库文件树。
 
-- [ ] **Step 1: Verify the source repository boundary is clean**
+- [x] **Step 1: Verify the source repository boundary is clean**
 
 Run:
 
@@ -44,7 +44,7 @@ git ls-files -s website/.claude/worktrees/distracted-turing-828f2a
 
 Expected: 除本计划外没有未说明变更；仓库根为 openSiri；最后一条显示现有 mode `160000` gitlink。
 
-- [ ] **Step 2: Create the exact temporary target directory**
+- [x] **Step 2: Create the exact temporary target directory**
 
 Run:
 
@@ -57,7 +57,7 @@ tar -xf /private/tmp/opensiri-website-source-20260824.tar -C /private/tmp/opensi
 
 Expected: 目标目录此前不存在；archive 只导出当前提交已跟踪的 website 内容。
 
-- [ ] **Step 3: Remove source-repository-only artifacts from the snapshot**
+- [x] **Step 3: Remove source-repository-only artifacts from the snapshot**
 
 Resolve exact targets first:
 
@@ -76,7 +76,7 @@ rm /private/tmp/opensiri-website-migration-20260824/tsconfig.tsbuildinfo
 
 Expected: 应用源码、配置、测试和 public assets 不受影响。
 
-- [ ] **Step 4: Initialize an empty-history repository**
+- [x] **Step 4: Initialize an empty-history repository**
 
 Run:
 
@@ -98,7 +98,7 @@ Expected: 输出 `0`。
 - Consumes: Task 1 的 clean snapshot 和主仓库 `LICENSE`。
 - Produces: 能够离开 openSiri 主仓库独立理解、安装和维护的网站根目录。
 
-- [ ] **Step 1: Copy the repository license**
+- [x] **Step 1: Copy the repository license**
 
 Run:
 
@@ -109,7 +109,7 @@ cmp LICENSE /private/tmp/opensiri-website-migration-20260824/LICENSE
 
 Expected: `cmp` 返回 0，新仓库沿用 GNU GPL-3.0 全文。
 
-- [ ] **Step 2: Replace starter README with project documentation**
+- [x] **Step 2: Replace starter README with project documentation**
 
 Use `apply_patch` to make `README.md` contain exactly this project-level structure and commands:
 
@@ -153,7 +153,7 @@ Workers 的运行入口分别位于 `vite.config.ts` 与 `worker/index.ts`。
 GNU GPL-3.0。完整条款见 [LICENSE](LICENSE)。
 ````
 
-- [ ] **Step 3: Ignore repository-local generated state**
+- [x] **Step 3: Ignore repository-local generated state**
 
 Append these rules to `.gitignore` with `apply_patch`:
 
@@ -167,7 +167,7 @@ Append these rules to `.gitignore` with `apply_patch`:
 *.tsbuildinfo
 ```
 
-- [ ] **Step 4: Assert the self-contained boundary**
+- [x] **Step 4: Assert the self-contained boundary**
 
 Run from `/private/tmp/opensiri-website-migration-20260824`:
 
@@ -193,7 +193,7 @@ Expected: 所有 `test` 返回 0，`git check-ignore` 列出四个示例路径�
 - Consumes: Task 2 的 self-contained tree 和 `package-lock.json`。
 - Produces: 本地 `main` 上恰好一个通过检查的首次提交。
 
-- [ ] **Step 1: Install exactly the locked dependencies**
+- [x] **Step 1: Install exactly the locked dependencies**
 
 Run:
 
@@ -204,7 +204,7 @@ npm ci
 
 Expected: 安装成功且 `package-lock.json` 无变更。
 
-- [ ] **Step 2: Run website checks**
+- [x] **Step 2: Run website checks**
 
 Run:
 
@@ -216,7 +216,7 @@ npm test
 
 Expected: lint、两次 vinext build 和 rendered HTML test 全部通过。
 
-- [ ] **Step 3: Verify the staged file boundary before committing**
+- [x] **Step 3: Verify the staged file boundary before committing**
 
 Run:
 
@@ -230,7 +230,7 @@ git ls-files | rg '(^|/)(\.claude|\.playwright-cli)(/|$)|tsconfig\.tsbuildinfo$'
 
 Expected: staged files只包含源码、配置、文档、测试与静态资源；后三个检查无输出。
 
-- [ ] **Step 4: Create the initial commit with `git-commit`**
+- [x] **Step 4: Create the initial commit with `git-commit`**
 
 Use bilingual Angular message with subject:
 
@@ -246,7 +246,7 @@ chore(repo): initialize standalone website repository
 
 Expected: `main` 创建一个 root commit。
 
-- [ ] **Step 5: Prove that the repository has no imported history**
+- [x] **Step 5: Prove that the repository has no imported history**
 
 Run:
 
@@ -268,7 +268,7 @@ Expected: 两个计数均为 1，工作树干净。
 - Consumes: Task 3 的单提交 `main`。
 - Produces: public GitHub repository、`origin` remote 和已推送的 `main`。
 
-- [ ] **Step 1: Check authentication and target nonexistence**
+- [x] **Step 1: Check authentication and target nonexistence**
 
 Run:
 
@@ -279,7 +279,7 @@ gh repo view TobeBetterV/opensiri-website --json nameWithOwner,visibility,defaul
 
 Expected: GitHub 已认证；第二条在首次执行时报告仓库不存在。若仓库已存在，停止并检查 owner、visibility、commit count，不覆盖未知内容。
 
-- [ ] **Step 2: Authenticate without collecting credentials if needed**
+- [x] **Step 2: Authenticate without collecting credentials if needed**
 
 If Step 1 shows no authenticated host, run:
 
@@ -289,7 +289,7 @@ gh auth login --hostname github.com --git-protocol ssh --web
 
 Expected: 用户在 GitHub 页面完成授权，`gh auth status` 随后成功；Agent 不读取或记录密码/token。
 
-- [ ] **Step 3: Create an empty public remote and push**
+- [x] **Step 3: Create an empty public remote and push**
 
 Run:
 
@@ -299,7 +299,7 @@ gh repo create TobeBetterV/opensiri-website --public --source /private/tmp/opens
 
 Expected: GitHub 不创建额外 README/LICENSE，local `main` 成为 `origin/main`。
 
-- [ ] **Step 4: Read back the published repository**
+- [x] **Step 4: Read back the published repository**
 
 Run:
 
@@ -325,21 +325,21 @@ Expected: `nameWithOwner` 正确、visibility 为 `PUBLIC`、默认分支为 `ma
 - Consumes: 已验证的 remote website repository 和当前 website 品牌 PNG。
 - Produces: 不依赖 website checkout 的 openSiri 主仓库。
 
-- [ ] **Step 1: Preserve presentation-owned brand assets before deletion**
+- [x] **Step 1: Preserve presentation-owned brand assets before deletion**
 
 Run from the isolated openSiri worktree:
 
 ```bash
 mkdir -p docs/assets/branding
-cp website/public/opensiri-logo.png docs/assets/branding/opensiri-logo.png
+cp website/public/opensiri-logo-color.png docs/assets/branding/opensiri-logo.png
 cp website/public/opensiri-logo-mono.png docs/assets/branding/opensiri-logo-mono.png
-cmp website/public/opensiri-logo.png docs/assets/branding/opensiri-logo.png
+cmp website/public/opensiri-logo-color.png docs/assets/branding/opensiri-logo.png
 cmp website/public/opensiri-logo-mono.png docs/assets/branding/opensiri-logo-mono.png
 ```
 
 Expected: 两个 `cmp` 均返回 0。
 
-- [ ] **Step 2: Point presentation scripts at repository-owned assets**
+- [x] **Step 2: Point presentation scripts at repository-owned assets**
 
 Use `apply_patch` to make the build script mapping exactly:
 
@@ -362,7 +362,7 @@ Change the verifier's `allowedLogoPath` suffix to:
 "../../../../docs/assets/branding/opensiri-logo.png"
 ```
 
-- [ ] **Step 3: Replace README website-directory instructions with the external repository**
+- [x] **Step 3: Replace README website-directory instructions with the external repository**
 
 In `## 目录结构`, remove the `website/` entry and add:
 
@@ -379,7 +379,7 @@ Replace the `## 官网开发` command block with:
 [TobeBetterV/opensiri-website](https://github.com/TobeBetterV/opensiri-website)。
 ```
 
-- [ ] **Step 4: Delete the resolved website tree only after remote verification**
+- [x] **Step 4: Delete the resolved website tree only after remote verification**
 
 Run:
 
@@ -401,7 +401,7 @@ Expected: 删除清单只位于 `website/`；`docs/assets/branding/` 中的副�
 - Consumes: Task 5 的 detached source tree 和 Task 4 的 published URL。
 - Produces: 可审查、可合并并可推送的 openSiri 收尾提交和历史记录。
 
-- [ ] **Step 1: Check source and active-reference boundaries**
+- [x] **Step 1: Check source and active-reference boundaries**
 
 Run:
 
@@ -417,7 +417,7 @@ git diff --check
 
 Expected: `rg` 无活动引用；两个脚本语法通过；diff check 无输出。
 
-- [ ] **Step 2: Rebuild and verify the presentation asset path**
+- [x] **Step 2: Rebuild and verify the presentation asset path**
 
 Run:
 
@@ -429,7 +429,7 @@ NODE_PATH=/Users/humanown/.cache/codex-runtimes/codex-primary-runtime/dependenci
 
 Expected: 构建 19 页 deck；verifier 报告 19 slides、19 notes、2 images，并确认 logo SHA-256。
 
-- [ ] **Step 3: Write the repository history record**
+- [x] **Step 3: Write the repository history record**
 
 Create `docs/histories/2026-08/20260824-website-repository-split.md` from `docs/histories/template.md` with:
 
@@ -440,7 +440,7 @@ Create `docs/histories/2026-08/20260824-website-repository-split.md` from `docs/
 - Affected files：README、两份 presentation scripts、branding assets、plan 和 website 删除；
 - Follow-ups：`None`，除非 GitHub 返回尚未处理的仓库设置限制。
 
-- [ ] **Step 4: Complete the execution plan**
+- [x] **Step 4: Complete the execution plan**
 
 Mark every completed checkbox, then move with:
 
@@ -448,7 +448,7 @@ Mark every completed checkbox, then move with:
 mv docs/exec-plans/active/2026-08-24-website-repository-split.md docs/exec-plans/completed/2026-08-24-website-repository-split.md
 ```
 
-- [ ] **Step 5: Review and commit the openSiri cleanup**
+- [x] **Step 5: Review and commit the openSiri cleanup**
 
 Run:
 
@@ -470,7 +470,7 @@ chore(repo): move website to standalone repository
 
 Expected: commit includes website deletion, README link, local branding assets, script path updates, completed plan and history record only。
 
-- [ ] **Step 6: Integrate and push the source repository**
+- [x] **Step 6: Integrate and push the source repository**
 
 Use `worktree-rebase-merge` to rebase the task branch onto current `main`, resolve only task-related conflicts, merge from the main worktree, rerun `git diff --check`, then push:
 

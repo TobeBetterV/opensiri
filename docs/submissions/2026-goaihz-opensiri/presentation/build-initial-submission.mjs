@@ -44,8 +44,8 @@ export const FONTS = Object.freeze({
 });
 
 const LOGOS = Object.freeze({
-  color: path.join(ROOT, "website/public/opensiri-logo.png"),
-  mono: path.join(ROOT, "website/public/opensiri-logo-mono.png"),
+  color: path.join(ROOT, "docs/assets/branding/opensiri-logo.png"),
+  mono: path.join(ROOT, "docs/assets/branding/opensiri-logo-mono.png"),
 });
 
 function geometry(x, y, w, h) {
@@ -263,7 +263,7 @@ export async function buildSlide01(presentation) {
   addText(slide, { value: "确认", x: 1064, y: 258, w: 44, h: 24, size: 13, color: COLORS.dark, bold: true, family: FONTS.cjk, align: "center", name: "cover-approval" });
   addText(slide, { value: "本地 OCR  →  Agent Team  →  用户决定", x: 894, y: 338, w: 216, h: 34, size: 13, color: "#C2D7CF", bold: true, family: FONTS.cjk, align: "center", name: "cover-loop-caption" });
   addText(slide, { value: "01", x: 1110, y: 646, w: 100, h: 30, size: 14, color: "#BBD1C8", bold: true, family: FONTS.mono, align: "right", name: "cover-number" });
-  setNotes(slide, { presenter: "先从用户只需截图这个动作切入，再说明团队协作不会自动发送。", sources: "OpenSiri 参赛材料（仓库内，非外部来源）。\nLogo: website/public/opensiri-logo.png" });
+  setNotes(slide, { presenter: "先从用户只需截图这个动作切入，再说明团队协作不会自动发送。", sources: "OpenSiri 参赛材料（仓库内，非外部来源）。\nLogo: docs/assets/branding/opensiri-logo.png" });
 }
 
 export async function buildSlide02(presentation) {
@@ -288,7 +288,7 @@ export async function buildSlide02(presentation) {
   });
   addRule(slide, { x: 72, y: 575, w: 1136, h: 1, color: COLORS.line });
   addText(slide, { value: "OpenSiri 用一个可落地的微信回复场景，验证桌面 Agent 团队如何被触发、协作、审计和由人接管。", x: 72, y: 596, w: 1040, h: 32, size: 17, color: COLORS.ink, bold: true, family: FONTS.cjk, name: "overview-verdict" });
-  setNotes(slide, { presenter: "用这页建立完整闭环；后续每一节只展开其中一个关键承诺。", sources: "OpenSiri 参赛材料（仓库内，非外部来源）。\nLogo: website/public/opensiri-logo.png" });
+  setNotes(slide, { presenter: "用这页建立完整闭环；后续每一节只展开其中一个关键承诺。", sources: "OpenSiri 参赛材料（仓库内，非外部来源）。\nLogo: docs/assets/branding/opensiri-logo.png" });
 }
 
 export async function buildSlide03(presentation) {
